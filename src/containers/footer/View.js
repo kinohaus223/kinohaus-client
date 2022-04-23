@@ -11,7 +11,7 @@ export const FooterView = () => {
       <PaymentPopup
         open={dateFirst}
         onClose={() => setDateFirst(false)}
-        title="VIP-date Überraschung"
+        title="Surprise"
         hours="3"
         price="90"
       />
@@ -23,26 +23,26 @@ export const FooterView = () => {
                 <div className="footer-flex">
                   <div className="footer-item">
                     <div className="footer-logo">
-                      <img src="/style/img/log1.png" alt="" />
+                      <img src="/style/img/logo.png" alt="" />
                     </div>
-                    <div className="footer-social-flex" />
+                    {/* <div className="footer-social-flex" /> */}
                   </div>
                   <div className="footer-item">
                     <nav className="footer-nav">
                       <ul>
                         <li className="footer-nav-link">
                           <Link href="/date">
-                            <a>Für 2 personen</a>
+                            <a>For date</a>
                           </Link>
                         </li>
                         <li className="footer-nav-link">
                           <Link href="/party">
-                            <a>Für viele Personen</a>
+                            <a>For company</a>
                           </Link>
                         </li>
                         <li className="footer-nav-link">
                           <Link href="/action">
-                            <a>VIP-Angebote</a>
+                            <a>Offers</a>
                           </Link>
                         </li>
                         <li className="footer-nav-link">
@@ -52,7 +52,7 @@ export const FooterView = () => {
                         </li>
                         <li className="footer-nav-link">
                           <Link href="/contacts">
-                            <a>Kontakte</a>
+                            <a>Contacts</a>
                           </Link>
                         </li>
                       </ul>
@@ -66,7 +66,7 @@ export const FooterView = () => {
                       <p className="menu-phone-time">12:00 - 00:00</p>
                     </div>
                     <button className="button footer_button" type="button" onClick={() => setDateFirst(true)}>
-                      Buchen Saal
+                      Book hall
                     </button>
                   </div>
                 </div>

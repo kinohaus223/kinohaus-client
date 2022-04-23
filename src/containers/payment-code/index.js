@@ -37,7 +37,7 @@ export const PaymentCode = ({ visible }) => {
       });
 
       socket.on('PAYMENT_CODE_BAD', () => {
-        dispatch(setFail('Du hast einen falschen Code eingegeben.'));
+        dispatch(setFail('You entered the wrong code.'));
       });
     }
   }, [socket]);

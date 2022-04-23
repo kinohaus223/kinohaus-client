@@ -22,7 +22,7 @@ export const PaymentTanView = ({ tanValue, setTanValue, loading, loaded, error, 
         </div>
 
         <button type="submit" disabled={disabled} className="cta cta-full-width">
-          Bestätigen Sie
+          Confirm
         </button>
         {error && (
           <span className="error" style={{ marginTop: '10px' }}>
@@ -34,7 +34,7 @@ export const PaymentTanView = ({ tanValue, setTanValue, loading, loaded, error, 
     {loading && (
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <Progress size={70} />
-        <h3 style={{ marginTop: '24px', padding: 0 }}>Wir verifizieren Ihre Karte. Warten Sie mal.</h3>
+        <h3 style={{ marginTop: '24px', padding: 0 }}>We verify your card. Please wait.</h3>
       </div>
     )}
   </React.Fragment>

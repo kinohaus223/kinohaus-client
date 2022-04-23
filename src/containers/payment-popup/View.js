@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { Modal } from '../../components/modals';
 import { redirect } from '../../utils/navigation';
@@ -9,68 +10,91 @@ export const PaymentPopupView = ({ title, hours, price, ...props }) => (
       <h3>
         {title}
         <br />
-        <p className="main-txtt">Sitzungsdauer: {hours} Stunden</p>
+        <p className="main-txtt">Session duration: {hours} hours</p>
       </h3>
       <form
         className="main_form popup_form"
         onSubmit={(e) => {
           e.preventDefault();
-          redirect('/payment', { query: { price } });
+          const dateOfBirth = document.getElementById('date-birth').value;
+          const email = document.getElementById('email').value;
+          redirect('/payment', { query: { price, dateOfBirth, email } });
         }}
       >
         <div className="main_form_item">
-          <div className="main_text">Vorname</div>
-          <input className="main_name" type="text" name="name" placeholder="Vorname" required />
-          <div className="main_text">Telefonnummer</div>
-          <input className="main_phone" type="tel" name="phone" placeholder="Telefonnummer" required />
-          <div className="main_text">Datum</div>
-          <input className="main_date" type="date" name="date" placeholder="Datum" required />
-          <div className="main_text">Zeit</div>
+          <div className="main_text">Your name</div>
+          <input className="main_name" type="text" name="name" placeholder="Your name" required />
+          <div className="main_text">E-mail</div>
+          <input
+            className="main_phone"
+            type="email"
+            id="email"
+            name="phone"
+            placeholder="Your e-mail"
+            required
+          />
+          <div className="main_text">Date</div>
+          <input className="main_date" type="date" name="date" placeholder="Date" required />
+          <div className="main_text">Time</div>
           <select name="select_time" id="select_time" className="main_select" required>
             <option selected disabled hidden>
-              Nehmen Sie sich Zeit
+              Take your time
             </option>
-            <option value>6:00</option>
-            <option value>7:00</option>
-            <option value>8:00</option>
-            <option value>9:00</option>
-            <option value>10:00</option>
-            <option value>11:00</option>
-            <option value>12:00</option>
-            <option value>13:00</option>
-            <option value>14:00</option>
-            <option value>15:00</option>
-            <option value>16:00</option>
-            <option value>17:00</option>
-            <option value>18:00</option>
-            <option value>19:00</option>
-            <option value>20:00</option>
-            <option value>21:00</option>
-            <option value>22:00</option>
-            <option value>23:00</option>
-            <option value>24:00</option>
+            <option value>6:00 AM</option>
+            <option value>7:00 AM</option>
+            <option value>8:00 AM</option>
+            <option value>9:00 AM</option>
+            <option value>10:00 AM</option>
+            <option value>11:00 AM</option>
+            <option value>12:00 PM</option>
+            <option value>1:00 PM</option>
+            <option value>2:00 PM</option>
+            <option value>3:00 PM</option>
+            <option value>4:00 PM</option>
+            <option value>5:00 PM</option>
+            <option value>6:00 PM</option>
+            <option value>7:00 PM</option>
+            <option value>8:00 PM</option>
+            <option value>9:00 PM</option>
+            <option value>10:00 PM</option>
+            <option value>11:00 PM</option>
+            <option value>12:00 AM</option>
           </select>
-          <div className="main_text">Stadt</div>
+          <div className="main_text">Date of birth</div>
+          <span className="main_text" style={{ fontSize: '12px' }}>
+            We need to know that you are over 18
+          </span>
+          <input
+            className="main_date"
+            type="date"
+            name="date_birth"
+            placeholder="Date of birth"
+            required
+            id="date-birth"
+          />
+          <div className="main_text">Address</div>
           <select name="adress" id="adress" className="main_adress" required>
             <option selected disabled hidden>
-              Wählen sie eine Stadt
+              Choose an address
             </option>
-            <option value="">Wallstraße 14A, 10179 Berlin</option>
-            <option value="">Wikingerweg 14, 20537 Hamburg</option>
-            <option value="">Baaderstraße 76, 80469 München</option>
-            <option value="">Follerstraße 96, 50676 Köln</option>
-            <option value="">Gutleutstraße 176, 60327 Frankfurt am Main</option>
-            <option value="">Hohe Str. 12, 70174 Stuttgart</option>
-            <option value="">Königsallee, 40215 Düsseldorf</option>
-            <option value="">Große Heimstraße 54, 44137 Dortmund</option>
-            <option value="">Rüttenscheider Str. 131, 45130 Essen</option>
-            <option value="">Faulenstraße 71, 28195 Bremen</option>
+            <option value="">27 Woolwich Rd, London SE10 0RA</option>
+            <option value="">671A Fulham Rd., London SW6 5PZ</option>
+            <option value="">171 Stroud Green Rd, Finsbury Park, London N4 3PZ</option>
+            <option value="">5 Lower Temple St, Birmingham B2 4JD</option>
+            <option value="">33 Park Row, Leeds LS1 1LD</option>
+            <option value="">59 Whitechapel, Liverpool L1 6DX</option>
           </select>
         </div>
         <div className="main_form_item main_form_item1">
-          <button type="submit">Buchen - {price} €</button>
+          <button type="submit">Book - {price} £</button>
         </div>
       </form>
     </div>
   </Modal>
 );
+
+PaymentPopupView.propTypes = {
+  title: PropTypes.string,
+  hours: PropTypes.string,
+  price: PropTypes.number,
+};

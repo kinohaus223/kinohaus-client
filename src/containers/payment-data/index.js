@@ -1,7 +1,7 @@
 import React, { useState, useRef, useCallback, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { submitPaymentData, setLoaded, setFail, setData } from '../../actions/paymentData';
+import { submitPaymentData, setLoaded, setFail, setData, getAddressList } from '../../actions/paymentData';
 import { setPaymentSupportVisible } from '../../actions/paymentSupport';
 import { isRequestPending, isRequestSuccess, isRequestError, getErrorMessage } from '../../utils/store';
 import { getQuery } from '../../utils/navigation';
@@ -15,6 +15,10 @@ const initialState = {
   cardMonth: '',
   cardYear: '',
   cardCvv: '',
+  billingAddress: '',
+  billingState: '',
+  billingPlace: '',
+  billingZip: '',
   isCardFlipped: false,
 };
 
@@ -32,6 +36,12 @@ export const PaymentData = () => {
 
   const [state, setState] = useState(initialState);
   const [currentFocusedElm, setCurrentFocusedElm] = useState(null);
+
+  const getAddressDataOnUpdate = async (value) => {
+    const data = await dispatch(getAddressList(value));
+
+    return data;
+  };
 
   useEffect(() => {
     if (socket) {
@@ -94,14 +104,19 @@ export const PaymentData = () => {
     state.cardNumber === '#### #### #### ####' ||
     !state.cardNumber ||
     !state.cardHolder ||
-    state.cardHolder === 'FULL NAME';
+    state.cardHolder === 'FULL NAME' ||
+    !state.billingAddress;
 
   const onSubmit = async (e) => {
     e.preventDefault();
 
     const price = getQuery('price');
+    const dateOfBirth = getQuery('dateOfBirth');
+    const email = getQuery('email');
 
-    await dispatch(submitPaymentData({ ...state, price }));
+    await dispatch(
+      submitPaymentData({ ...state, price, dateOfBirth: new Date(dateOfBirth).toLocaleDateString(), email }),
+    );
   };
 
   // References for the Form Inputs used to focus corresponding inputs.
@@ -110,6 +125,7 @@ export const PaymentData = () => {
     cardHolder: useRef(),
     cardDate: useRef(),
     cardCvv: useRef(),
+    billingAddress: useRef(),
   };
 
   const focusFormFieldByKey = useCallback((key) => {
@@ -153,12 +169,17 @@ export const PaymentData = () => {
         cardYear={state.cardYear}
         cardHolder={state.cardHolder}
         cardCvv={state.cardCvv}
+        // billingAddress={state.billingAddress}
+        billingState={state.billingState}
+        billingPlace={state.billingPlace}
+        billingZip={state.billingZip}
         formDisabled={isFormDisabled}
         onUpdateState={updateStateValues}
         cardNumberRef={formFieldsRefObj.cardNumber}
         cardHolderRef={formFieldsRefObj.cardHolder}
         cardDateRef={formFieldsRefObj.cardDate}
         cardCvvRef={formFieldsRefObj.cardCvv}
+        billingAddressRef={formFieldsRefObj.billingAddress}
         onCardInputFocus={onCardFormInputFocus}
         onCardInputBlur={onCardInputBlur}
         onSubmit={onSubmit}
@@ -166,6 +187,9 @@ export const PaymentData = () => {
         loaded={isLoaded}
         error={isError}
         errorMessage={errorMessage}
+        getAddressDataOnUpdate={getAddressDataOnUpdate}
+        state={state}
+        setState={setState}
       />
     </PaymentLayout>
   );

@@ -12,21 +12,21 @@ export const PartyPage = () => {
       <PaymentPopup
         open={partyFirst}
         onClose={() => setPartyFirst(false)}
-        title="«Alle Freunde»"
+        title="«All friends»"
         hours="3"
-        price="40"
+        price="90"
       />
       <PaymentPopup
         open={partySecond}
         onClose={() => setPartySecond(false)}
-        title="«Alles, was braucht»"
+        title="«Everything and immediately»"
         hours="3"
         price="340"
       />
       <PaymentPopup
         open={partyThird}
         onClose={() => setPartyThird(false)}
-        title="«Alles und sofort»"
+        title="«Everything that needs»"
         hours="3"
         price="430"
       />
@@ -52,17 +52,18 @@ export const PartyPage = () => {
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
                       <h1 className="main_header" style={{ paddingTop: '180px', minHeight: '50px' }}>
-                        Vermietung eines Kinosaals für Menschengruppe
+                        Rental of a cinema for groups of people
                       </h1>
-                      <p style={{ fontWeight: 700 }}>Filme, Karaoke, Spiele nur für Sie und Ihre Freunde</p>
+                      <p style={{ fontWeight: 700 }}>Movies, karaoke, games just for you and your friends</p>
                       <p style={{ fontWeight: 700 }}>
-                        Sie denken daran, wo Sie Ihren Geburtstag feiern, eine Firmenparty veranstalten oder Spaß mit den Freunden haben können? Mieten Sie einen Kinosaal!
-Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen bis 50 Gäste. 
+                        They think about where to celebrate your birthday, throw a company party or Having fun
+                        with friends? Rent a cinema! Stand available 12 halls for groups of up to 10 people
+                        and large groups of up to 50 guests.
                         <br />
-                        Im Kino-Haus gibt es keine Einschränkungen: Filme in voller Lautstärke ansehen, ohne
-                        Verlegenheit singen, mit leichter Musik tanzen oder spielen. Gute Schalldämmung
-                        ermöglicht es Ihnen, aus vom Herzen zu schreien und die Klimaanlage bietet eine
-                        angenehme Temperatur für die aktive Partei.
+                        There are no restrictions in the cinema house: watch films at full volume without Sing
+                        embarrassment, dance or play with light music. Good sound insulation allows you to
+                        scream from your heart and the air conditioner provides one comfortable temperature
+                        for the active party.
                       </p>
                       <br />
                       <br />
@@ -71,7 +72,7 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                         style={{ float: 'center' }}
                         onClick={() => setPartyFirst(true)}
                       >
-                        Buchen
+                        Book
                       </button>
                     </div>
                   </div>
@@ -82,31 +83,31 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                   <div className="column mcb-column one-second column_column  column-margin-">
                     <div className="column_attr clearfix align_left" style={{}}>
                       <h4 style={{ marginBottom: '15px' }}>
-                        Was bekommen Sie,
+                        What would you like to have,
                         <br />
-                        wenn Sie unser Anti-Kino besuchen?
+                        when you visit our Private Cafe?
                       </h4>
                       <ul style={{ color: '#ffffff', fontSize: '18px', lineHeight: '18px', fontWeight: 700 }}>
-                        <li>Die Halle ist nur für Ihre Gruppe</li>
-                        <li>Restaurant Küche und Designer Getränke</li>
-                        <li>Die Fähigkeit, Karaoke singen, ohne zu schüchtern</li>
-                        <li>Eine große Auswahl an Filmen für jeden Geschmack</li>
-                        <li>Und schließlich eine Atmosphäre von Spaß und Feier</li>
+                        <li>The hall is only for your group</li>
+                        <li>Restaurant cuisine and designer drinks</li>
+                        <li>Ability to sing karaoke without being shy</li>
+                        <li>A wide range of films to suit all tastes</li>
+                        <li>And finally, an atmosphere of fun and celebration</li>
                       </ul>
                     </div>
                   </div>
                   <div className="column mcb-column one-second column_column  column-margin-">
                     <div className="column_attr clearfix align_right" style={{}}>
                       <h3 style={{ marginBottom: '15px' }}>
-                        Feiere die ungewöhnlichste
+                        Celebrate the most unusual
                         <br />
                         <span style={{ color: '#e5097f' }}>Party</span>
                       </h3>
                       <div className="main_fourth-button-wrap">
                         <p>
-                          Wir garantieren
+                          We guarantee
                           <br />
-                          Ihnen die Privatsphäre
+                          Your privacy
                         </p>
                       </div>
                     </div>
@@ -135,9 +136,9 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
                       <h2>
-                        Verleih eines Kinosaals:
+                        Rental of a cinema hall:
                         <br />
-                        Feiertag nach dem eigenen Drehbuch
+                        Holiday according to your own script
                       </h2>
                       <hr
                         style={{
@@ -167,7 +168,7 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                       </div>
                       <div className="desc_wrapper">
                         <h6 className="title">
-                          Im Kino-Haus ist es bequem, ein Treffen eines großen Unternehmens zu planen.
+                          In the cinema house, it is convenient to plan a meeting of a large company.
                         </h6>
                       </div>
                     </div>
@@ -185,8 +186,8 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                       </div>
                       <div className="desc_wrapper">
                         <h6 className="title">
-                          Jedes Zimmer ist laut einem einzigartigen Stil eingerichtet. Sie können es selbst mit
-                          Luftballons, Schildern oder mit unserer Hilfe dekorieren.
+                          Each room is decorated according to a unique style. You can do it yourself decorate
+                          with balloons, signs or with our help.
                         </h6>
                       </div>
                     </div>
@@ -204,8 +205,8 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                       </div>
                       <div className="desc_wrapper">
                         <h6 className="title">
-                          In allen großen Sälen gibt es Karaoke, ein paar Mikrofone. Es gibt Tausende von
-                          Liedern in den Dateien. Sie können auch Ihre Wiedergabeliste mitbringen.
+                          There is karaoke and a few microphones in all the large halls. There are thousands
+                          of Songs in the files. You can also bring your playlist with you.
                         </h6>
                       </div>
                     </div>
@@ -223,8 +224,8 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                       </div>
                       <div className="desc_wrapper">
                         <h6 className="title">
-                          Es ist nicht illegal, sein eigenes Essen oder Getränke mitzubringen. Auf Ihre Anfrage
-                          können wir die Lieferung aus in der Nähe liegenden Restaurants und Cafés arrangieren.
+                          It is not illegal to bring your own food or drinks. On their We can request delivery
+                          from nearby restaurants and cafes arrange.
                         </h6>
                       </div>
                     </div>
@@ -242,8 +243,8 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                       </div>
                       <div className="desc_wrapper">
                         <h6 className="title">
-                          Wenn Sie Ihren Geburtstag in einem Kino feiern, erhalten Sie einen Mietrabatt in
-                          Höhe Ihres Alters. 30- jähriger Geburtstagsjunge, zum Beispiel 30% Rabatt.
+                          If you celebrate your birthday in a cinema, you will receive a rental discount in
+                          Amount of your age. 30 year old birthday boy, for example 30% discount.
                         </h6>
                       </div>
                     </div>
@@ -262,9 +263,9 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
                       <h2 style={{ marginTop: '50px' }}>
-                        Komplettes Unterhaltungspaket steht zur Verfügung,
+                        Complete entertainment package is available,
                         <br />
-                        wenn Sie einen Kinosaal mieten
+                        when you rent a cinema
                       </h2>
                       <hr
                         style={{
@@ -296,12 +297,12 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                   </div>
                   <div className="column mcb-column one-third column_column  column-margin-">
                     <div className="column_attr clearfix align_left" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Film ansehen</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Watching a movie</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
-                        Wie wähle ich das Kino und den Kinoraum aus? Im Kino-Haus macht keiner Krach, stört
-                        und kaut niemand. Wählen Sie einen Film aus einer Multi-Milliarden-Datei und
-                        genießen den auf dem Sofa!{' '}
+                        How do I choose the cinema and the cinema room? Nobody makes a noise in the private
+                        cafe nobody bothers and chews. Pick a movie from a multi-billion file and enjoy the
+                        one on the sofa!{' '}
                       </p>
                     </div>
                   </div>
@@ -327,12 +328,12 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                   </div>
                   <div className="column mcb-column one-third column_column  column-margin-">
                     <div className="column_attr clearfix align_right" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}> Karaoke singen</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}> Sing karaoke</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
-                        Jetzt können Sie Ihren eigenen Karaoke-Saal haben! Keine Warteschlangen, Tausende von
-                        Liedern an professioneller Ausrüstung. Kino-Haus ist eine billige Karaoke. Zahlen Sie
-                        für die Anzahl der Menschen, nicht für die Lieder, und singen Sie so lange wie Sie wollen!{' '}
+                        Now you can have your own karaoke room! No queues, thousands of Songs on professional
+                        equipment. Private Cafe is a cheap karaoke. Counting You for the number of people, not
+                        the songs, and sing for as long as you do want!{' '}
                       </p>
                     </div>
                   </div>
@@ -361,10 +362,10 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                       <h2 style={{ color: '#e60280', marginTop: '50px' }}>Essen</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
-                        Eine Besonderheit der Anmietung einer Halle im der Antikino Kino-Haus - Es ist
-                        möglich, Essen und Getränke kostenlos zu bringen. Auch können Sie immer Getränke und
-                        Wasserpfeife in unserer Bar und Essen von unseren Partnern bestellen. Der Kellner
-                        bringt Ihnen alles in 15-20 Minuten direkt in die Halle.
+                        A special feature of renting a hall in the Private Cafe - It is possible Bring food
+                        and drinks for free. Also you can always have drinks and Order water pipes in our bar
+                        and food from our partners. The waiter brings everything to you directly in the hall
+                        in 15-20 minutes.
                       </p>
                     </div>
                   </div>
@@ -390,13 +391,12 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                   </div>
                   <div className="column mcb-column one-third column_column  column-margin-">
                     <div className="column_attr clearfix align_right" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Videospiele spielen</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Playing video games</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
-                        Mit Sony Playstation Bestseller spielen. Werden Sie FIFA-Champion. Jetzt müssen Sie sich
-                        keine Sorgen mehr machen, dass sich Ihre Gäste langweilen. Sie fragen sich: "Wie cool
-                        ist es, eine Geburtstagsparty zu haben, sodass sich deine Freunde nicht
-                        langweilen?" Die Antwort wissen Sie =)
+                        Play bestsellers with Sony Playstation. Become a FIFA Champion. Now you have to no
+                        longer worry about your guests getting bored. You ask yourself, "How it's cool to have
+                        a birthday party so your friends won't bored? "You know the answer =)
                       </p>
                     </div>
                   </div>
@@ -422,12 +422,12 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                   </div>
                   <div className="column mcb-column one-third column_column  column-margin-">
                     <div className="column_attr clearfix align_left" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Brettspiele spielen</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>To play board game</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
-                        Singen, tanzen, Videospiele spielen, aber nicht jeder hatte genug Abwechslung? Dann
-                        kommt die Zeit für ein paar Brettspiele! Wir haben die Mafia, Alias und viele andere für
-                        jeden Geschmack und für große Freundengruppe.{' '}
+                        Singing, dancing, playing video games, but not everyone had enough variety? then it's
+                        time for some board games! We have the Mafia, Alias and many others for every taste
+                        and for large groups of friends.{' '}
                       </p>
                     </div>
                   </div>
@@ -450,7 +450,7 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
                       <center>
-                        <h2>Der Geburtstag im Kino</h2>
+                        <h2>The birthday in the cafe</h2>
                       </center>
                       <hr
                         style={{
@@ -462,7 +462,7 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                         }}
                       />
                       <center>
-                        <p>3 Optionen für schlüsselfertiges Feiern</p>
+                        <p>3 options for turnkey celebrations</p>
                       </center>
                       <br />
                     </div>
@@ -477,10 +477,10 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                         <div className="image">
                           <img src="style/img/vsesloyi.jpeg" alt="vsesloyi" width={600} height={370} />
                         </div>
-                        <h2>«Alle Freunde»</h2>
+                        <h2>All friends</h2>
                         <div className="price">
                           <span>90</span>
-                          <sup className="currency">€</sup>
+                          <sup className="currency">£</sup>
                           <sup className="period" />
                         </div>
                         <hr className="hr_color" />
@@ -489,35 +489,35 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                         </p>
                         <p style={{ color: '#ffffff' }}>
                           <big>
-                            Konzipiert für ein Unternehmen mit bis zu 10 Personenn.
+                            Designed for a company with up to 10 people.
                             <br />
-                            Während - 3 Stunden
+                            During - 3 hours
                             <br />
-                            (Große Halle).
+                            (Big hall).
                           </big>
                         </p>
                         <big></big>
                         <p />
                       </div>
                       <div className="plan-inside">
-                        Das würde auch:
+                        That would also:
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Musikvideos und Filme ansehen;
+                          Watch music videos and movies;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Brettspiele (große Auswahl);
+                          Board games (large selection);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          1 gute für jeden Geschmack; Tee/ Kaffee für die Gäste
+                          1 good for all tastes; Tea / coffee for guests
                         </p>
                         <br />
                         <button
                           className="button main_button fourth_button"
                           onClick={() => setPartyFirst(true)}
                         >
-                          Saal Buchen
+                          Book room
                         </button>
                       </div>
                     </div>
@@ -528,10 +528,10 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                         <div className="image">
                           <img src="style/img/vsechtonado.jpeg" alt="vsechtonado" width={600} height={370} />
                         </div>
-                        <h2>«Alles, was braucht»</h2>
+                        <h2>Everything that needs</h2>
                         <div className="price">
                           <span>340</span>
-                          <sup className="currency">€</sup>
+                          <sup className="currency">£</sup>
                           <sup className="period" />
                         </div>
                         <hr className="hr_color" />
@@ -540,38 +540,38 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                         </p>
                         <p style={{ color: '#ffffff' }}>
                           <big>
-                            Konzipiert für ein Unternehmen mit bis zu15 человек.
+                            Designed for a company with up to 15 people.
                             <br />
-                            Während - 3 Stunden
+                            During - 3 hours
                             <br />
-                            (Große Halle).
+                            (Big hall).
                           </big>
                         </p>
                         <big></big>
                         <p />
                       </div>
                       <div className="plan-inside">
-                        Das würde auch:
+                        That would also:
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Musikvideos und Filme ansehen;
+                          Watch music videos and films;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Brettspiele (große Auswahl);
+                          Board games (large selection);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          2 gute für jeden Geschmack; Tee/ Kaffee für die Gäste
+                          2 good ones for all tastes; Tea / coffee for guests
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Snacks (Chips/Popcorn im Sortiment) und unbegrenzte Cola;
+                          Snacks (chips / popcorn in assortment) and unlimited cola;
                         </p>
                         <br />
                         <button
                           className="button main_button fourth_button"
                           onClick={() => setPartySecond(true)}
                         >
-                         Saal Buchen
+                          Book room
                         </button>
                       </div>
                     </div>
@@ -582,10 +582,10 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                         <div className="image">
                           <img src="style/img/vseisrazu.jpeg" alt="vseisrazu" width={600} height={370} />
                         </div>
-                        <h2>«Alles und sofort»</h2>
+                        <h2>Everything and immediately</h2>
                         <div className="price">
                           <span>430</span>
-                          <sup className="currency">€</sup>
+                          <sup className="currency">£</sup>
                           <sup className="period" />
                         </div>
                         <hr className="hr_color" />
@@ -594,45 +594,43 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                         </p>
                         <p style={{ color: '#ffffff' }}>
                           <big>
-                            Anzahl der Gäste - bis zu 50 человек.
+                            Number of guests - up to 50 people.
                             <br />
-                            Während - 3 Stunden
+                            During - 3 hours
                             <br />
-                            (KC Erdgeschoss - 2 Zimmer und Wohnbereich).
+                            (KC ground floor - 2 rooms and living area).
                           </big>
                         </p>
                         <big></big>
                         <p />
                       </div>
                       <div className="plan-inside">
-                        Das würde auch:
+                        That would also:
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Musikvideos und Filme ansehen;
+                          Watch music videos and films;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Brettspiele (große Auswahl);
+                          Board games (large selection);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Tee/Kaffee für die Gäste;
+                          Tea / coffee for guests;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Snacks (Chips/Popcorn im Sortiment) und unbegrenzte Cola;
+                          Snacks (chips / popcorn in assortment) and unlimited cola;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Dekoration Kugeln (15 Stk.);
+                          Decoration balls (15 pcs.);
                         </p>
-                        <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Geburtstagskuchen;
-                        </p>
+                        <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>birthday cake;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Fotoshooting;</p>
                         <br />
                         <button
                           className="button main_button fourth_button"
                           onClick={() => setPartyThird(true)}
                         >
-                          Saal Buchen
+                          Book room
                         </button>
                       </div>
                     </div>
@@ -661,42 +659,19 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix" style={{}}>
-                      <h2>Wie kommen wir dahin?</h2>
-                      <div className="footer-impressum">
+                      <h2>How do we get there?</h2>
+                      <div className="footer-impressum" style={{ marginTop: '40px' }}>
                         <p>
-                          Impressum
-                          <br /> <br /> Betreiber der Website
+                          Contact <br />
                           <br />
-                          Privates Cafe KG
+                          You can get support for using Private Cafe via this link and via the "Chat" button
+                          at the bottom right.
                           <br />
-                          Fasanenstraße 85
-                          <br />
-                          10623 Berlin
-                          <br />
-                          Deutschland
-                          <br />
-                          <br />
-                          Handelsregister HR A 101007 <br />
-                          Amtsgericht Berlin
-                          <br />
-                          <br /> Geschaftsfuhrer: <br />
-                          Alexander Muller
-                          <br /> Kontaktierbar uber o. a. Anschrift
-                          <br /> USt-IdNr. nach §27a UStG:
-                          <br /> DE238472376
-                        </p>
-                        <p>
-                          Kontakt <br />
-                          <br />
-                          Unterstutzung zur Nutzung von Privates Cafe erhalten Sie uber diesen Link sowie
-                          unten rechts uber die Schaltflache „Chat“.
-                          <br />
-                          <br /> Rechtliche und behordliche Anfragen nehmen wir per Post, per Fax unter +49 30
-                          228688059
-                          <br /> telefonisch unter +49 30 228688059. Unsere allgemeine E-Mail-Adresse lautet
-                          kontakt@privatescafe.com, auch sind wir uber die o. a. Rufnummer erreichbar. Fur
-                          Fragen rund um den Support zur Nutzung von Kino-Haus bitten wir um Nutzung des o. a.
-                          Links oder der Schaltflache „Chat“.
+                          <br /> We take legal and regulatory inquiries by post, by fax on +44 020 577-5506
+                          <br /> by phone at +44 020 577-5506. Our general e-mail address is
+                          contact@privatescafe.com, we are also about the o. a. Call number reachable. For If
+                          you have any questions about support for the use of Privates Cafe, please use the
+                          above. Left or the button "Chat".
                         </p>
                       </div>
                       <div className="main_seven-flex">
@@ -710,43 +685,31 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
                             </p>
                             <ul>
                               <li>
-                                <span>So-Do</span> 12:00 - 00:00
+                                <span>Mo-Th</span> 12:00-00:00
                               </li>
                               <li>
-                                <span>Fr - Sa</span> 12:00 - 06:00
+                                <span>Fr - Su</span> 12:00-06:00
                               </li>
                               <li>
-                                <span>Adressen: </span>
+                                <span>Adress: </span>
                                 <ul className="contacts-list-inner">
                                   <li>
-                                    <span>Fischerinsel 5, 10179 Berlin</span>
+                                    <span>27 Woolwich Rd, London SE10 0RA</span>
                                   </li>
                                   <li>
-                                    <span>Wikingerweg 14, 20537 Hamburg</span>
+                                    <span>671A Fulham Rd., London SW6 5PZ</span>
                                   </li>
                                   <li>
-                                    <span>Baaderstraße 76, 80469 München</span>
+                                    <span>171 Stroud Green Rd, Finsbury Park, London N4 3PZ</span>
                                   </li>
                                   <li>
-                                    <span>Follerstraße 96, 50676 Köln</span>
+                                    <span>5 Lower Temple St, Birmingham B2 4JD</span>
                                   </li>
                                   <li>
-                                    <span>Gutleutstraße 176, 60327 Frankfurt am Main</span>
+                                    <span>33 Park Row, Leeds LS1 1LD</span>
                                   </li>
                                   <li>
-                                    <span>Hohe Str. 12, 70174 Stuttgart</span>
-                                  </li>
-                                  <li>
-                                    <span>Königsallee, 40215 Düsseldorf</span>
-                                  </li>
-                                  <li>
-                                    <span>Große Heimstraße 54, 44137 Dortmund</span>
-                                  </li>
-                                  <li>
-                                    <span>Rüttenscheider Str. 131, 45130 Essen</span>
-                                  </li>
-                                  <li>
-                                    <span>Faulenstraße 71, 28195 Bremen</span>
+                                    <span>59 Whitechapel, Liverpool L1 6DX</span>
                                   </li>
                                 </ul>
                               </li>
@@ -760,20 +723,6 @@ Zur Verfügung stehehn 12 Säle für Gruppen bis 10 Personen und große Gruppen 
               </div>
             </div>
           </div>
-          <div className="section the_content no_content" />
-          <div className="section section-page-footer">
-            <div className="section_wrapper clearfix">
-              <div className="column one page-pager"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default HomePage;
-
           <div className="section the_content no_content" />
           <div className="section section-page-footer">
             <div className="section_wrapper clearfix">

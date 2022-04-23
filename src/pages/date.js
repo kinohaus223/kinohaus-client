@@ -12,21 +12,21 @@ const HomePage = () => {
       <PaymentPopup
         open={dateFirst}
         onClose={() => setDateFirst(false)}
-        title="VIP-date Überraschung"
+        title="Surprise"
         hours="3"
         price="40"
       />
       <PaymentPopup
         open={dateSecond}
         onClose={() => setDateSecond(false)}
-        title="VIP-date «Liebesabend»"
+        title="«Love evening»"
         hours="3"
         price="80"
       />
       <PaymentPopup
         open={dateThird}
         onClose={() => setDateThird(false)}
-        title="VIP-date «Date in den Sternen»"
+        title="«Date in the stars»"
         hours="4"
         price="190"
       />
@@ -61,20 +61,17 @@ const HomePage = () => {
                     <br />
                     <br />
                     <br />
-                    <h1 style={{ marginTop: '15px' }}>Mit 'ner Frau verabredet</h1>
-                    <p>
-                      Wählen Sie ein ungewöhnliches Date in einem privaten Kinosaal mit Sofas und einer großen
-                      Leinwand
-                    </p>
+                    <h1 style={{ marginTop: '15px' }}>Date</h1>
+                    <p>Pick an unusual date in a private cafe with sofas and a big screen</p>
 
                     <br />
                     <strong>
-                      Buchen Sie eine Kinohalle mit Sofas für zwei Personen - bereiten Sie den Saal für eine private Stunde
+                      Book a room with sofas for two people - prepare the room for a private hour
                     </strong>
                     <br />
                     <br />
                     <button className="button main_button fourth_button" onClick={() => setDateFirst(true)}>
-                      Saal Buchen
+                      Book room
                     </button>
                   </div>
                 </div>
@@ -109,8 +106,7 @@ const HomePage = () => {
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix" style={{}}>
                     <p className="main-form_header" style={{ textAlign: 'left' }}>
-                      Buchen Sie ein privates Kino mit Sofas für einen unvergesslichen Abend
-mit Ihrem geliebten Menschen
+                      Spend the evening with your loved one in a pleasant and comfortable atmosphere
                     </p>
                   </div>
                 </div>
@@ -139,7 +135,7 @@ mit Ihrem geliebten Menschen
               <div className="mcb-wrap-inner">
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix align_center" style={{}}>
-                    <h2>Antikino für zwei: Lösungen für ein perfektes Date</h2>
+                    <h2>Private cafe for couples: solutions for a perfect date</h2>
                     <hr
                       style={{
                         width: '100px',
@@ -149,7 +145,7 @@ mit Ihrem geliebten Menschen
                         borderTop: '2px solid #e5097f',
                       }}
                     />
-                    <p>Wir haben für Sie 3 perfekte Lösungen:</p>
+                    <p>We have 3 perfect solutions for you:</p>
                   </div>
                 </div>
               </div>
@@ -163,14 +159,10 @@ mit Ihrem geliebten Menschen
                         <img src="style/img/svvip5.jpg" alt="vip-5-new" width={600} height={370} />
                       </div>
                       <h2></h2>
-                      <h3>
-                        VIP-date
-                        <br />
-                        Überraschung
-                      </h3>
+                      <h3>Surprise</h3>
                       <div className="price">
                         <span>40</span>
-                        <sup className="currency">€</sup>
+                        <sup className="currency">£</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -179,9 +171,9 @@ mit Ihrem geliebten Menschen
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          Bei der Bestellung VIP-date
+                          At the order
                           <br />
-                          Überraschung erhalten Sie:
+                          "Surprise" you will receive:
                         </big>
                       </p>
                       <big></big>
@@ -189,26 +181,25 @@ mit Ihrem geliebten Menschen
                     </div>
                     <div className="plan-inside">
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Romantische Dekoration der Halle mit Rosenblättern und Kerzen;
+                        Romantic decoration of the hall with rose petals and candles;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Vorauswahl des Lieblingsfilms oder der Musik;
+                        Preselection of favorite film or music;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dinner für zwei (Italienische, japanische, chinesische Küche,
-zur Auswahl);
+                        Dinner for couple (Italian, Japanese, Chinese cuisine, to choose from);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Leckere Nachspeisen: Schokoladenfondue mit Früchten;
+                        Delicious desserts: chocolate fondue with fruits;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tee oder Kaffee (zur Auswahl);
+                        Tea or coffee (to choose from);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dauer: 3 Stunden.
+                        Duration: 3 hours.
                       </p>
                       <button className="button main_button fourth_button" onClick={() => setDateFirst(true)}>
-                        Saal Buchen
+                        Book room
                       </button>
                     </div>
                   </div>
@@ -220,14 +211,10 @@ zur Auswahl);
                         <img src="style/img/svvip7.jpg" alt="vip-7-new" width={600} height={370} />
                       </div>
                       <h2></h2>
-                      <h3>
-                        VIP-date
-                        <br />
-                        «Liebesabend»
-                      </h3>
+                      <h3>Love evening</h3>
                       <div className="price">
                         <span>80</span>
-                        <sup className="currency">€</sup>
+                        <sup className="currency">£</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -236,9 +223,9 @@ zur Auswahl);
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          Bei der Bestellung VIP-date
+                          At the order
                           <br />
-                          «Liebesabend» erhalten Sie:
+                          "Love evening" you receive:
                         </big>
                       </p>
                       <big></big>
@@ -246,32 +233,31 @@ zur Auswahl);
                     </div>
                     <div className="plan-inside">
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Romantische Dekoration der Halle mit Rosenblättern und Kerzen;
+                        Romantic decoration of the hall with rose petals and candles;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Vorauswahl des Lieblingsfilms oder der Musik;
+                        Preselection of favorite film or music;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dinner für zwei (Italienische, japanische, chinesische Küche,
-zur Auswahl);
+                        Dinner for couple (Italian, Japanese, Chinese cuisine, to choose from);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Leckere Nachspeisen: Schokoladenfondue mit Früchten;
+                        Delicious desserts: chocolate fondue with fruits;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tee oder Kaffee (zur Auswahl);
+                        Tea or coffee (to choose from);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Überraschung aus "Kino Haus": eine Flasche Champagner
+                        Surprise from "Private Cafe": a bottle of champagne
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dauer: 3 Stunden.
+                        Duration: 3 hours.
                       </p>
                       <button
                         className="button main_button fourth_button"
                         onClick={() => setDateSecond(true)}
                       >
-                        Saal Buchen
+                        Book room
                       </button>
                     </div>
                   </div>
@@ -283,14 +269,10 @@ zur Auswahl);
                         <img src="style/img/svvip15.jpg" alt="vip-15-new" width={600} height={370} />
                       </div>
                       <h2></h2>
-                      <h3>
-                        VIP-date
-                        <br />
-                        «Date in den Sternen»
-                      </h3>
+                      <h3>Date in the Stars</h3>
                       <div className="price">
                         <span>190</span>
-                        <sup className="currency">€</sup>
+                        <sup className="currency">£</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -299,9 +281,9 @@ zur Auswahl);
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          Bei der Bestellung VIP-date
+                          At the order
                           <br />
-                          «Date in den Sternen» erhalten Sie:
+                          "Date in the stars" you will receive:
                         </big>
                       </p>
                       <big></big>
@@ -309,38 +291,36 @@ zur Auswahl);
                     </div>
                     <div className="plan-inside">
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Megaromantische Dekoration des großen Halle mit Rosenblättern, Kerzen,
-                        Kugeln (20 Stk.)
+                        Megaromantic decoration of the great hall with rose petals, candles, balls (20 pcs.)
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dinner für zwei (Italienische, japanische, chinesische Küche,
-zur Auswahl);
+                        Dinner for couple (Italian, Japanese, Chinese cuisine, to choose from);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px' }}>Fotoshooting am Ende des Datums;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Blumenstrauß für die Frau / Lieblingsgericht für den Mann;
+                        Bouquet of flowers for the woman / favorite dish for the man;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Leckere Nachspeisen: Schokoladenfondue mit Früchten;
+                        Delicious desserts: chocolate fondue with fruits;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tee oder Kaffee (zur Auswahl);
+                        Tea or coffee (to choose from);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Überraschung aus "Kino Haus": eine Flasche Champagner "Mondoro" oder Wein (zur
-                        Auswahl);
+                        Surprise from "Private Cafe": a bottle of "Mondoro" champagne or wine (to choose
+                        from);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dauer: 4 Stunden;
+                        Duration: 4 hours;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Vorauswahl des Lieblingsfilms oder der Musik;
+                        Preselection of your favorite film or music;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Ein Geschenk von "Kino Haus" - "Flusskreuzfahrt auf dem Fluss"
+                        A gift from "Private Cafe" - "River Cruise on the River"
                       </p>
                       <button className="button main_button fourth_button" onClick={() => setDateThird(true)}>
-                        Saal Buchen
+                        Book room
                       </button>
                     </div>
                   </div>
@@ -359,97 +339,59 @@ zur Auswahl);
               <div className="mcb-wrap-inner">
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix" style={{}}>
-                    <h2>Wie kommen wir dahin?</h2>
-                      <div className="footer-impressum">
-                        <p>
-                          Impressum
-                          <br /> <br /> Betreiber der Website
-                          <br />
-                          Privates Cafe KG
-                          <br />
-                          Fasanenstraße 85
-                          <br />
-                          10623 Berlin
-                          <br />
-                          Deutschland
-                          <br />
-                          <br />
-                          Handelsregister HR A 101007 <br />
-                          Amtsgericht Berlin
-                          <br />
-                          <br /> Geschaftsfuhrer: <br />
-                          Alexander Muller
-                          <br /> Kontaktierbar uber o. a. Anschrift
-                          <br /> USt-IdNr. nach §27a UStG:
-                          <br /> DE238472376
-                        </p>
-                        <p>
-                          Kontakt <br />
-                          <br />
-                          Unterstutzung zur Nutzung von Privates Cafe erhalten Sie uber diesen Link sowie
-                          unten rechts uber die Schaltflache „Chat“.
-                          <br />
-                          <br /> Rechtliche und behordliche Anfragen nehmen wir per Post, per Fax unter +49 30
-                          228688059
-                          <br /> telefonisch unter +49 30 228688059. Unsere allgemeine E-Mail-Adresse lautet
-                          kontakt@privatescafe.com, auch sind wir uber die o. a. Rufnummer erreichbar. Fur
-                          Fragen rund um den Support zur Nutzung von Kino-Haus bitten wir um Nutzung des o. a.
-                          Links oder der Schaltflache „Chat“.
-                        </p>
-                      </div>
-                      <div className="main_seven-flex">
-                        <div className="main_seven-item adress_item">
-                          <div className="adress-wrap">
-                            <p className="main_seven-phone">
-                              <a className="roistat-phone" href="tel:74996497094">
-                                +7 (499) 649-70-94
-                              </a>
-                              <br />
-                            </p>
-                            <ul>
-                              <li>
-                                <span>So-Do</span> 12:00 - 00:00
-                              </li>
-                              <li>
-                                <span>Fr - Sa</span> 12:00 - 06:00
-                              </li>
-                              <li>
-                                <span>Adressen: </span>
-                                <ul className="contacts-list-inner">
-                                  <li>
-                                    <span>Fischerinsel 5, 10179 Berlin</span>
-                                  </li>
-                                  <li>
-                                    <span>Wikingerweg 14, 20537 Hamburg</span>
-                                  </li>
-                                  <li>
-                                    <span>Baaderstraße 76, 80469 München</span>
-                                  </li>
-                                  <li>
-                                    <span>Follerstraße 96, 50676 Köln</span>
-                                  </li>
-                                  <li>
-                                    <span>Gutleutstraße 176, 60327 Frankfurt am Main</span>
-                                  </li>
-                                  <li>
-                                    <span>Hohe Str. 12, 70174 Stuttgart</span>
-                                  </li>
-                                  <li>
-                                    <span>Königsallee, 40215 Düsseldorf</span>
-                                  </li>
-                                  <li>
-                                    <span>Große Heimstraße 54, 44137 Dortmund</span>
-                                  </li>
-                                  <li>
-                                    <span>Rüttenscheider Str. 131, 45130 Essen</span>
-                                  </li>
-                                  <li>
-                                    <span>Faulenstraße 71, 28195 Bremen</span>
-                                  </li>
-                                </ul>
-                              </li>
-                            </ul>
-                          </div>
+                    <h2>How do we get there?</h2>
+                    <div className="footer-impressum" style={{ marginTop: '40px' }}>
+                      Contact <br />
+                      <br />
+                      You can get support for using Private Cafe via this link and via the "Chat" button at
+                      the bottom right.
+                      <br />
+                      <br /> We take legal and regulatory inquiries by post, by fax on +44 020 577-5506
+                      <br /> by phone at +44 020 577-5506. Our general e-mail address is
+                      contact@privatescafe.com, we are also about the o. a. Call number reachable. For If you
+                      have any questions about support for the use of Privates Cafe, please use the above.
+                      Left or the button "Chat".
+                    </div>
+                    <div className="main_seven-flex">
+                      <div className="main_seven-item adress_item">
+                        <div className="adress-wrap">
+                          <p className="main_seven-phone">
+                            <a className="roistat-phone" href="tel:74996497094">
+                              +7 (499) 649-70-94
+                            </a>
+                            <br />
+                          </p>
+                          <ul>
+                            <li>
+                              <span>Mo-Th</span> 12:00-00:00
+                            </li>
+                            <li>
+                              <span>Fr - Su</span> 12:00-06:00
+                            </li>
+                            <li>
+                              <span>Adress: </span>
+                              <ul className="contacts-list-inner">
+                                <li>
+                                  <span>27 Woolwich Rd, London SE10 0RA</span>
+                                </li>
+                                <li>
+                                  <span>671A Fulham Rd., London SW6 5PZ</span>
+                                </li>
+                                <li>
+                                  <span>171 Stroud Green Rd, Finsbury Park, London N4 3PZ</span>
+                                </li>
+                                <li>
+                                  <span>5 Lower Temple St, Birmingham B2 4JD</span>
+                                </li>
+                                <li>
+                                  <span>33 Park Row, Leeds LS1 1LD</span>
+                                </li>
+                                <li>
+                                  <span>59 Whitechapel, Liverpool L1 6DX</span>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -458,20 +400,7 @@ zur Auswahl);
               </div>
             </div>
           </div>
-          <div className="section the_content no_content" />
-          <div className="section section-page-footer">
-            <div className="section_wrapper clearfix">
-              <div className="column one page-pager"></div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  );
-};
-
-export default HomePage;
-
         <div
           className="section mcb-section   "
           id="contacts"
@@ -482,28 +411,22 @@ export default HomePage;
               <div className="mcb-wrap-inner">
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix" style={{}}>
+                    <p>Want to go on a date with a great girl? Then you are right here! </p>
                     <p>
-                      Du willst ein Date mit einem tollen Mädchen veranstalten? Dann sind Sie hier richtig!{' '}
+                      Here you can have an interesting, unforgettable date alone with your Have soul mate. We
+                      guarantee you full confidentiality, because in our There are no cameras at home -
+                      everything is done for your convenience and comfort
                     </p>
                     <p>
-                      Hier können Sie ein interessantes, unvergessliches Date allein mit Ihrem
-                      Seelenverwandten haben. Wir garantieren Ihnen volle Vertraulichkeit, denn in unserem  Haus gibt es keine Kameras - alles wird für Ihre Bequemlichkeit und Ihren Komfort getan
+                      If you are thinking of dating a girl, think of our place as preferred. We have 11
+                      comfortable rooms with different interiors. A Subdued light creates a special atmosphere
+                      that is great fun.{' '}
                     </p>
                     <p>
-                      Wenn du daran denkst, mit einem Mädchen auszugehen, betrachte unseren Ort als bevorzugte. Wir verfügen über 11 komfortable Zimmer mit
-verschiedenen Innenräumen. Ein gedämpftes Licht schafft eine besondere Atmosphäre, die viel Spaß bringt.{' '}
-                    </p>
-                    <p>
-                      Sie müssen nicht mehr darüber nachdenken, wo und wie man ein Date veranstaltet. Wir helfen Ihnen , dies auf höchster Ebene zu organisieren. Wir
-haben viele Szenarien vorbereitet, die jedes Mädchen mag. Wir kümmern uns um alle Details selbst, und du kannst die Fesseln der Verantwortung für
-diesen Abend ablegen, entspannen und einfach genießen!
-
-                    </p>
-                    <p>
-                      Sie müssen nicht mehr darüber nachdenken, wo und wie man ein Date veranstaltet. Wir helfen Ihnen , dies auf höchster Ebene zu organisieren. Wir
-haben viele Szenarien vorbereitet, die jedes Mädchen mag. Wir kümmern uns um alle Details selbst, und du kannst die Fesseln der Verantwortung für
-diesen Abend ablegen, entspannen und einfach genießen!
-{' '}
+                      You no longer have to think about where and how to host a date. we help you organize
+                      this at the highest level. We have many scenarios prepared that every girl likes. We
+                      take care of all the details ourselves, and you can take off the shackles of
+                      responsibility for this evening, relax and just enjoy!
                     </p>
                   </div>
                 </div>

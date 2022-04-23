@@ -10,9 +10,9 @@ export const AdvantagesPage = () => {
       <PaymentPopup
         open={dateFirst}
         onClose={() => setDateFirst(false)}
-        title="VIP-date Überraschung"
+        title="Surprise"
         hours="3"
-        price="90"
+        price="40"
       />
       <div className="sections_group">
         <div className="entry-content" itemProp="mainContentOfPage">
@@ -36,9 +36,7 @@ export const AdvantagesPage = () => {
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
                       <h1 className="main_header" style={{ paddingTop: '180px', minHeight: '50px' }}>
-                        Wie unterscheidet sich unser Kino-Haus
-                        <br />
-                        von anderen Anti-Kinos?
+                        How is our Private Cafe different from other cafe?
                       </h1>
                     </div>
                   </div>
@@ -53,7 +51,7 @@ export const AdvantagesPage = () => {
                           className="button main_button fourth_button"
                           onClick={() => setDateFirst(true)}
                         >
-                          Saal Buchen
+                          Book room
                         </button>
                       </div>
                       <br />
@@ -74,7 +72,7 @@ export const AdvantagesPage = () => {
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
-                      <h2 style={{ marginTop: '50px' }}>Unsere Vorteile</h2>
+                      <h2 style={{ marginTop: '50px' }}>Our advantages</h2>
                       <hr
                         style={{
                           width: '100px',
@@ -106,22 +104,19 @@ export const AdvantagesPage = () => {
                   </div>
                   <div className="column mcb-column one-second column_column  column-margin-">
                     <div className="column_attr clearfix align_right" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Erfahrung</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Experience</h2>
                       <p style={{ marginTop: '10px' }}></p>
                       <ul className="difference" style={{ listStyleType: 'none' }}>
+                        <li>In our 7 years of work we have learned what is important for our guests</li>
                         <li>
-                          In unserer 7-jährigen Arbeit haben wir gelernt, was für unsere Gäste wichtig ist
+                          Since 2012 we have been visited by over 50.000 people,
+                          <br />
+                          3.000 of them permanent visitors
                         </li>
                         <li>
-                          Seit 2012 wurden wir von über 50.000 Menschen besucht,
+                          We interview every guest and 87% are ready,
                           <br />
-                          davon 3.000 davon-dauerhafte Besucher
-                        </li>
-                        <li>
-                          Wir interviewen jeden Gast und 87% sind bereit,
-                          <br />
-                          wieder zu kommen, die restlichen 13% zeigen unsere Fehler an,dir wir korrigieren
-                          sie.
+                          to come back, the remaining 13% indicate our mistakes, we correct them for you.
                         </li>
                         <p />
                       </ul>
@@ -144,13 +139,13 @@ export const AdvantagesPage = () => {
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one-second column_column  column-margin-">
                     <div className="column_attr clearfix align_left" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Reinheit</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Purity</h2>
                       <p style={{ marginTop: '10px' }}></p>
                       <ul className="difference" style={{ listStyleType: 'none' }}>
-                        <li>Nach jedem Gast geschieht eine allgemeine Reinigung.</li>
-                        <li>Die Decken sind immer sauber, frisch und in neuen Verpackungen.</li>
-                        <li>Wir verwenden UV-Lampen,  um Bakterien zu zerstören.</li>
-                        <li>Jedes Zimmer verfügt über eine Klimaanlage für Komfort und Bequemlichkeit.</li>
+                        <li>A general cleaning takes place after each guest.</li>
+                        <li>The blankets are always clean, fresh and in new packaging.</li>
+                        <li>We use UV lamps to destroy bacteria.</li>
+                        <li>Each room has air conditioning for comfort and convenience.</li>
                       </ul>
                       <p />
                     </div>
@@ -178,17 +173,15 @@ export const AdvantagesPage = () => {
                   </div>
                   <div className="column mcb-column one-second column_column  column-margin-">
                     <div className="column_attr clearfix align_right" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Privatsphäre</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Privacy</h2>
                       <p style={{ marginTop: '10px' }}></p>
                       <ul className="difference" style={{ listStyleType: 'none' }}>
                         <li>
-                          Wir wissen, wie wichtig Privatsphäre ist, wenn Sie sich ausruhen.
+                          We know how important privacy is when you are resting.
                           <br />
-                          Deshalb haben wir keine versteckte Kameras
+                          That's why we don't have hidden cameras
                         </li>
-                        <li>
-                          Unsere Mitarbeiter werden auch Sie nicht stören, Sie rufen sie selbst an
-                        </li>
+                        <li>Our employees won't bother you either, you call them yourself</li>
                       </ul>
                       <p />
                     </div>
@@ -210,17 +203,14 @@ export const AdvantagesPage = () => {
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one-second column_column  column-margin-">
                     <div className="column_attr clearfix align_left" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Vorteil</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Advantage</h2>
                       <p style={{ marginTop: '10px' }}></p>
                       <ul className="difference" style={{ listStyleType: 'none' }}>
+                        <li>We do not use cork, so you can bring all your food and drinks with you.</li>
                         <li>
-                          Wir verwenden keine Kork Pflicht, so dass Sie alle Speisen und Getränke mitbringen
-                          können.
-                        </li>
-                        <li>
-                          Stammgäste erhalten 10% bis 25% Ermäßigungskarten.
+                          Regular guests receive 10% to 25% discount cards.
                           <br />
-                          Diese Karten beinhalten auch kostenlosen Tee und Fondue.
+                          These cards also include free tea and fondue.
                         </li>
                       </ul>
                       <p />
@@ -252,7 +242,7 @@ export const AdvantagesPage = () => {
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
-                      <h2 style={{ marginTop: '50px' }}>Unser Team</h2>
+                      <h2 style={{ marginTop: '50px' }}>Our team</h2>
                       <hr
                         style={{
                           width: '100px',
@@ -262,7 +252,7 @@ export const AdvantagesPage = () => {
                           borderTop: '2px solid #e5097f',
                         }}
                       />
-                      <p>Diese Menschen schaffen Ihren Komfort</p>
+                      <p>These people create your comfort</p>
                     </div>
                   </div>
                 </div>
@@ -276,12 +266,12 @@ export const AdvantagesPage = () => {
                           <img src="style/img/party8.jpg" alt="SAMSUNG CSC" width={300} height={450} />
                         </div>
                         <h2></h2>
-                        <h2 style={{ margin: '0 0 5px', fontSize: '30px', lineHeight: '30px' }}>Margarete</h2>
+                        <h2 style={{ margin: '0 0 5px', fontSize: '30px', lineHeight: '30px' }}>Julia</h2>
                         <p className="subtitle">
                           <big></big>
                         </p>
                         <p className="pricing-box-team plan-header-team subtitle-team">
-                          <big>Managerin</big>
+                          <big>Manager</big>
                         </p>
                         <big></big>
                         <p />
@@ -295,12 +285,12 @@ export const AdvantagesPage = () => {
                           <img src="style/img/p9.jpg" alt="SAMSUNG CSC" width={300} height={450} />
                         </div>
                         <h2></h2>
-                        <h2 style={{ margin: '0 0 5px', fontSize: '30px', lineHeight: '30px' }}>Luisa</h2>
+                        <h2 style={{ margin: '0 0 5px', fontSize: '30px', lineHeight: '30px' }}>Elizabeth</h2>
                         <p className="subtitle">
                           <big></big>
                         </p>
                         <p className="pricing-box-team plan-header-team subtitle-team">
-                          <big>Managerin</big>
+                          <big>Manager</big>
                         </p>
                         <big></big>
                         <p />
@@ -314,7 +304,7 @@ export const AdvantagesPage = () => {
                           <img src="style/img/p10.jpg" alt="SAMSUNG CSC" width={300} height={450} />
                         </div>
                         <h2></h2>
-                        <h2 style={{ margin: '0 0 5px', fontSize: '30px', lineHeight: '30px' }}>Helene</h2>
+                        <h2 style={{ margin: '0 0 5px', fontSize: '30px', lineHeight: '30px' }}>Daniella</h2>
                         <p className="subtitle">
                           <big></big>
                         </p>
@@ -350,42 +340,19 @@ export const AdvantagesPage = () => {
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix" style={{}}>
-                      <h2>Wie kommen wir dahin?</h2>
-                      <div className="footer-impressum">
+                      <h2>How do we get there?</h2>
+                      <div className="footer-impressum" style={{ marginTop: '40px' }}>
                         <p>
-                          Impressum
-                          <br /> <br /> Betreiber der Website
+                          Contact <br />
                           <br />
-                          Privates Cafe KG
+                          You can get support for using Private Cafe via this link and via the "Chat" button
+                          at the bottom right.
                           <br />
-                          Fasanenstraße 85
-                          <br />
-                          10623 Berlin
-                          <br />
-                          Deutschland
-                          <br />
-                          <br />
-                          Handelsregister HR A 101007 <br />
-                          Amtsgericht Berlin
-                          <br />
-                          <br /> Geschaftsfuhrer: <br />
-                          Alexander Muller
-                          <br /> Kontaktierbar uber o. a. Anschrift
-                          <br /> USt-IdNr. nach §27a UStG:
-                          <br /> DE238472376
-                        </p>
-                        <p>
-                          Kontakt <br />
-                          <br />
-                          Unterstutzung zur Nutzung von Privates Cafe erhalten Sie uber diesen Link sowie
-                          unten rechts uber die Schaltflache „Chat“.
-                          <br />
-                          <br /> Rechtliche und behordliche Anfragen nehmen wir per Post, per Fax unter +49 30
-                          228688059
-                          <br /> telefonisch unter +49 30 228688059. Unsere allgemeine E-Mail-Adresse lautet
-                          kontakt@privatescafe.com, auch sind wir uber die o. a. Rufnummer erreichbar. Fur
-                          Fragen rund um den Support zur Nutzung von Kino-Haus bitten wir um Nutzung des o. a.
-                          Links oder der Schaltflache „Chat“.
+                          <br /> We take legal and regulatory inquiries by post, by fax on +44 020 577-5506
+                          <br /> by phone at +44 020 577-5506. Our general e-mail address is
+                          contact@privatescafe.com, we are also about the o. a. Call number reachable. For If
+                          you have any questions about support for the use of Privates Cafe, please use the
+                          above. Left or the button "Chat".
                         </p>
                       </div>
                       <div className="main_seven-flex">
@@ -399,43 +366,31 @@ export const AdvantagesPage = () => {
                             </p>
                             <ul>
                               <li>
-                                <span>So-Do</span> 12:00 - 00:00
+                                <span>Mo-Th</span> 12:00-00:00
                               </li>
                               <li>
-                                <span>Fr - Sa</span> 12:00 - 06:00
+                                <span>Fr-Su</span> 12:00-06:00
                               </li>
                               <li>
-                                <span>Adressen: </span>
+                                <span>Adress: </span>
                                 <ul className="contacts-list-inner">
                                   <li>
-                                    <span>Fischerinsel 5, 10179 Berlin</span>
+                                    <span>27 Woolwich Rd, London SE10 0RA</span>
                                   </li>
                                   <li>
-                                    <span>Wikingerweg 14, 20537 Hamburg</span>
+                                    <span>671A Fulham Rd., London SW6 5PZ</span>
                                   </li>
                                   <li>
-                                    <span>Baaderstraße 76, 80469 München</span>
+                                    <span>171 Stroud Green Rd, Finsbury Park, London N4 3PZ</span>
                                   </li>
                                   <li>
-                                    <span>Follerstraße 96, 50676 Köln</span>
+                                    <span>5 Lower Temple St, Birmingham B2 4JD</span>
                                   </li>
                                   <li>
-                                    <span>Gutleutstraße 176, 60327 Frankfurt am Main</span>
+                                    <span>33 Park Row, Leeds LS1 1LD</span>
                                   </li>
                                   <li>
-                                    <span>Hohe Str. 12, 70174 Stuttgart</span>
-                                  </li>
-                                  <li>
-                                    <span>Königsallee, 40215 Düsseldorf</span>
-                                  </li>
-                                  <li>
-                                    <span>Große Heimstraße 54, 44137 Dortmund</span>
-                                  </li>
-                                  <li>
-                                    <span>Rüttenscheider Str. 131, 45130 Essen</span>
-                                  </li>
-                                  <li>
-                                    <span>Faulenstraße 71, 28195 Bremen</span>
+                                    <span>59 Whitechapel, Liverpool L1 6DX</span>
                                   </li>
                                 </ul>
                               </li>
@@ -461,4 +416,4 @@ export const AdvantagesPage = () => {
   );
 };
 
-export default HomePage;
+export default AdvantagesPage;

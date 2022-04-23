@@ -4,18 +4,17 @@ import Document, { Html, Main, NextScript, Head } from 'next/document';
 
 class MyDocument extends Document {
   render() {
-    return 
+    return (
       <Html>
         <Head>
-
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="shortcut icon" href="/style/img/log.ico" />
-          <title>Antikino Kino Haus</title>
+          <link rel="shortcut icon" href="/style/img/logo.ico" />
+          <title>Privates Cafe</title>
 
           <meta
             name="description"
-            content="Sehen Sie sich einen Film auf einer großen Leinwand ohne Fremde in einem Anti-Kino an. Ein privates Kino für die andere Hälfte, Freunde oder Kollegen – die Säle bieten Platz für bis zu 25 Personen. Im Kino House Antikino können Sie Karaoke singen, Brettspiele spielen, eine Set-Top-Box spielen usw."
+            content="Enjoy evening in a private cafe. A private private cafe for the other half, friends or colleagues - the halls offer space for up to 25 people. In the Private Cafe, you can sing karaoke, play board games, play a set-top box"
           />
           <link
             href="//db.onlinewebfonts.com/c/2c8f6c3c149c5a07410e52cfb3b2db2b?family=mfn-icons"
@@ -115,14 +114,12 @@ class MyDocument extends Document {
             type="text/javascript"
             dangerouslySetInnerHTML={{
               __html: `
-
 var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
 push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},
 w:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';
 ga.async=1;ga.src=('https:'==document.location.protocol?'https:':'http:') + 
 '//www.onwebchat.com/clientchat/71a4f9f04d8a29c4c9c375a77ceae19f';var s=
 document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
-
           `,
             }}
           />

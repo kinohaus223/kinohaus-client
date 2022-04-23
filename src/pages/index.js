@@ -15,42 +15,42 @@ const HomePage = () => {
       <PaymentPopup
         open={dateFirst}
         onClose={() => setDateFirst(false)}
-        title="VIP-date Überraschung"
+        title="Surprise"
         hours="3"
         price="40"
       />
       <PaymentPopup
         open={dateSecond}
         onClose={() => setDateSecond(false)}
-        title="VIP-date «Liebesabend»"
+        title="Love evening"
         hours="3"
         price="80"
       />
       <PaymentPopup
         open={dateThird}
         onClose={() => setDateThird(false)}
-        title="VIP-date «Date in den Sternen»"
+        title="Date in the stars"
         hours="4"
         price="190"
       />
       <PaymentPopup
         open={partyFirst}
         onClose={() => setPartyFirst(false)}
-        title="«Mit allen Freunden»"
+        title="With all friends"
         hours="3"
         price="250"
       />
       <PaymentPopup
         open={partySecond}
         onClose={() => setPartySecond(false)}
-        title="«Alles, was man braucht»"
+        title="All you need"
         hours="3"
         price="340"
       />
       <PaymentPopup
         open={partyThird}
         onClose={() => setPartyThird(false)}
-        title="«Alles und sofort»"
+        title="Everything and immediately"
         hours="3"
         price="430"
       />
@@ -76,21 +76,21 @@ const HomePage = () => {
                   <div className="column mcb-column one column_column show-on-mobile column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
                       <h1 className="main_header" style={{ minHeight: '70px', paddingTop: '120px' }}>
-                        Antikino Kino Haus
+                        Privates Cafe
                       </h1>
                       <div className="main_form_item" onClick={() => setDateFirst(true)}>
-                        <button>Buchen Sie jetzt</button>
+                        <button>Book now</button>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="column mcb-column one column_column progress column-margin-">
                   <div className="column_attr clearfix align_center" style={{}}>
-                    <h1 className="main_header">Antikino Kino Haus</h1>
+                    <h1 className="main_header">Privates Cafe</h1>
                     <br />
                     <br />
                     <button className="button main_button" onClick={() => setDateFirst(true)}>
-                      Buchen Sie jetzt
+                      Book now
                     </button>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ const HomePage = () => {
               <div className="mcb-wrap-inner">
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix align_center" style={{}}>
-                    <h2>Angebote für ein perfektes Date</h2>
+                    <h2>Our rooms</h2>
                     <hr
                       style={{
                         width: '100px',
@@ -128,7 +128,7 @@ const HomePage = () => {
                         borderTop: '2px solid #e5097f',
                       }}
                     />
-                    <p>Wir haben 3 perfekte Varianten für Sie:</p>
+                    <p>We have 3 perfect variants for you:</p>
                   </div>
                 </div>
               </div>
@@ -141,14 +141,10 @@ const HomePage = () => {
                       <div className="image">
                         <img src="/style/img/vip-5-new.jpeg" alt="vip-5-new" width={600} height={370} />
                       </div>
-                      <h3>
-                        VIP-date
-                        <br />
-                        «Überraschung»
-                      </h3>
+                      <h3>Surprise</h3>
                       <div className="price">
                         <span>40</span>
-                        <sup className="currency">€</sup>
+                        <sup className="currency">£</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -157,9 +153,9 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          Bei der Bestellung VIP-date
+                          At the order
                           <br />
-                          «Überraschung» erhalten Sie:
+                          You will receive a «surprise»:
                         </big>
                       </p>
                       <big></big>
@@ -167,25 +163,23 @@ const HomePage = () => {
                     </div>
                     <div className="plan-inside">
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Romantische Dekoration der Halle mit Rosenblättern und Kerzen;
+                        Romantic decoration of the hall with rose petals and candles;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Vorauswahl des Lieblingsfilms oder der Musik;
+                        Preselection of your favorite film or music;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dinner für zwei (Italienische, japanische, chinesische Küche,zur Auswahl);
+                        Dinner for two (Italian, Japanese, Chinese cuisine, to choose from);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Leckere Nachspeisen: Schokoladenfondue mit Früchten;
+                        Delicious desserts: chocolate fondue with fruits;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tee oder Kaffee (zur Auswahl);
+                        Tea or coffee (to choose from);
                       </p>
-                      <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dauer: 3 Stunden.
-                      </p>
+                      <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Duration: 3 hours</p>
                       <button className="button main_button fourth_button" onClick={() => setDateFirst(true)}>
-                        Saal Buchen
+                        Book room
                       </button>
                     </div>
                   </div>
@@ -197,14 +191,10 @@ const HomePage = () => {
                         <img src="/style/img/vip-7-new.jpeg" alt="vip-7-new" width={600} height={370} />
                       </div>
                       <h2></h2>
-                      <h3>
-                        VIP-date
-                        <br />
-                        «Liebesabend»
-                      </h3>
+                      <h3>Love evening</h3>
                       <div className="price">
                         <span>80</span>
-                        <sup className="currency">€</sup>
+                        <sup className="currency">£</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -213,9 +203,9 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          Bei der Bestellung VIP-date
+                          At the order
                           <br />
-                          «Liebesabend» erhalten Sie:
+                          "Love evening" you receive:
                         </big>
                       </p>
                       <big></big>
@@ -223,31 +213,31 @@ const HomePage = () => {
                     </div>
                     <div className="plan-inside">
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Romantische Dekoration der Halle mit Rosenblättern und Kerzen;
+                        Romantic decoration of the hall with rose petals and candles;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Vorauswahl des Lieblingsfilms oder der Musik;
+                        Preselection of your favorite film or music;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dinner für zwei (Italienische, japanische, chinesische Küche,zur Auswahl);
+                        Dinner for two (Italian, Japanese, Chinese cuisine, to choose from);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Leckere Nachspeisen: Schokoladenfondue mit Früchten;
+                        Delicious desserts: chocolate fondue with fruits;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tee oder Kaffee (zur Auswahl);
+                        Tea or coffee (to choose from);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Überraschung aus "Kino Haus": eine Flasche Champagner
+                        Surprise from "Private Cafe": a bottle of champagne
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dauer: 3 Stunden.
+                        Duration: 3 hours.
                       </p>
                       <button
                         className="button main_button fourth_button"
                         onClick={() => setDateSecond(true)}
                       >
-                        Saal Buchen
+                        Book room
                       </button>
                     </div>
                   </div>
@@ -259,14 +249,10 @@ const HomePage = () => {
                         <img src="/style/img/vip-15-new.jpeg" alt="vip-15-new" width={600} height={370} />
                       </div>
                       <h2></h2>
-                      <h3>
-                        VIP-date
-                        <br />
-                        «Date in den Sternen»
-                      </h3>
+                      <h3>Date in the Stars</h3>
                       <div className="price">
                         <span>190</span>
-                        <sup className="currency">€</sup>
+                        <sup className="currency">£</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -275,9 +261,9 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          Bei der Bestellung VIP-date
+                          At the order
                           <br />
-                          «Date in den Sternen» erhalten Sie:
+                          Get a "date in the stars":
                         </big>
                       </p>
                       <big></big>
@@ -285,37 +271,36 @@ const HomePage = () => {
                     </div>
                     <div className="plan-inside">
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Megaromantische Dekoration des großen Halle mit Rosenblättern, Kerzen,
-                        Kugeln (20 Stk.)
+                        Megaromantic decoration of the great hall with rose petals, candles, balls (20 pcs.)
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dinner für zwei (Italienische, japanische, chinesische Küche,zur Auswahl);
+                        Dinner for two (Italian, Japanese, Chinese cuisine, to choose from);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px' }}>Fotoshooting am Ende des Datums;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Blumenstrauß für die Frau / Lieblingsgericht für den Mann;
+                        Bouquet of flowers for the woman / favorite dish for the man;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Leckere Nachspeisen: Schokoladenfondue mit Früchten;
+                        Delicious desserts: chocolate fondue with fruits;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tee oder Kaffee (zur Auswahl);
+                        Tea or coffee (to choose from);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Überraschung aus "Kino Haus": eine Flasche Champagner "Mondoro" oder Wein (zur
-                        Auswahl);
+                        Surprise from "Private Cafe": a bottle of "Mondoro" champagne or wine (to choose
+                        from);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dauer: 4 Stunden;
+                        Duration: 3 hours;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Vorauswahl des Lieblingsfilms oder der Musik;
+                        Preselection of your favorite film or music;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Ein Geschenk von "Kino Haus" - "Flusskreuzfahrt auf dem Fluss"
+                        A gift from "Private Cafe" - "River Cruise on the River"
                       </p>
                       <button className="button main_button fourth_button" onClick={() => setDateThird(true)}>
-                        Saal Buchen
+                        Book room
                       </button>
                     </div>
                   </div>
@@ -343,7 +328,7 @@ const HomePage = () => {
               <div className="mcb-wrap-inner">
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix align_center" style={{}}>
-                    <h2>Ruhelösungen mit dem Unternehmen</h2>
+                    <h2>Rest solutions with the company</h2>
                     <hr
                       style={{
                         width: '100px',
@@ -353,7 +338,7 @@ const HomePage = () => {
                         borderTop: '2px solid #e5097f',
                       }}
                     />
-                    <p>3 Optionen für schlüsselfertiges Feiern</p>
+                    <p>3 options for turnkey celebrations</p>
                   </div>
                 </div>
               </div>
@@ -366,10 +351,10 @@ const HomePage = () => {
                       <div className="image">
                         <img src="/style/img/vsesloyi.jpeg" alt="vsesloyi" width={600} height={370} />
                       </div>
-                      <h2>«Mit allen Freunden»</h2>
+                      <h2>With all friends</h2>
                       <div className="price">
                         <span>250</span>
-                        <sup className="currency">€</sup>
+                        <sup className="currency">£</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -378,35 +363,35 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          Passt für eine Veranstaltung maximal für 10 Personen.
+                          Fits for one event for a maximum of 10 people.
                           <br />
-                          Zeit - 3 Stunden
+                          Time - 3 hours
                           <br />
-                          (Große Halle).
+                          (Big hall).
                         </big>
                       </p>
                       <big></big>
                       <p />
                     </div>
                     <div className="plan-inside">
-                      Das steht auch zur Verfügung:
+                      This is also available:
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Musikvideos und Filme ansehen;
+                        Watch music videos and movies;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Brettspiele (große Auswahl);
+                        Board games (large selection);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        1 gute für jeden Geschmack; Tee/ Kaffee für die Gäste
+                        1 good for all tastes; Tea / coffee for guests
                       </p>
                       <br />
                       <button
                         className="button main_button fourth_button"
                         onClick={() => setPartyFirst(true)}
                       >
-                        Saal Buchen
+                        Book room
                       </button>
                     </div>
                   </div>
@@ -417,10 +402,10 @@ const HomePage = () => {
                       <div className="image">
                         <img src="/style/img/vsechtonado.jpeg" alt="vsechtonado" width={600} height={370} />
                       </div>
-                      <h2>«Alles, was man braucht»</h2>
+                      <h2>All you need</h2>
                       <div className="price">
                         <span>340</span>
-                        <sup className="currency">€</sup>
+                        <sup className="currency">£</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -429,38 +414,38 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          Passt für eine Veranstaltung maximal für 15 Personen.
+                          Fits for one event for a maximum of 15 people.
                           <br />
-                          Zeit - 3 Stunden
+                          Time - 3 hours
                           <br />
-                          (Große Halle).
+                          (Big hall).
                         </big>
                       </p>
                       <big></big>
                       <p />
                     </div>
                     <div className="plan-inside">
-                      Das steht auch zur Verfügung:
+                      This is also available:
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Musikvideos und Filme ansehen;
+                        Watch music videos and movies;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Brettspiele (große Auswahl);
+                        Board games (large selection);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        2 gute für jeden Geschmack; Tee/ Kaffee für die Gäste
+                        2 good ones for all tastes; Tea / coffee for guests
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Snacks (Chips/Popcorn im Sortiment) und unbegrenzte Cola;
+                        Snacks (chips / popcorn in the assortment) and unlimited cola;
                       </p>
                       <br />
                       <button
                         className="button main_button fourth_button"
                         onClick={() => setPartySecond(true)}
                       >
-                        Saal Buchen
+                        Book room
                       </button>
                     </div>
                   </div>
@@ -471,10 +456,10 @@ const HomePage = () => {
                       <div className="image">
                         <img src="/style/img/vseisrazu.jpeg" alt="vseisrazu" width={600} height={370} />
                       </div>
-                      <h2>«Alles und sofort»</h2>
+                      <h2>Everything and immediately</h2>
                       <div className="price">
                         <span>430</span>
-                        <sup className="currency">€</sup>
+                        <sup className="currency">£</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -483,45 +468,43 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          Anzahl der Gäste - bis zu 50 Personen.
+                          Number of guests - up to 50 people.
                           <br />
-                          Zeit - 3 Stunden
+                          Time - 3 hours
                           <br />
-                          (KC Erdgeschoss - 2 Zimmer und eine Halle).
+                          (KC ground floor - 2 rooms and a hall).
                         </big>
                       </p>
                       <big></big>
                       <p />
                     </div>
                     <div className="plan-inside">
-                      Das steht auch zur Verfügung:
+                      That is also available:
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Musikvideos und Filme ansehen;
+                        Watch music videos and movies;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Brettspiele (große Auswahl);
+                        Board games (large selection);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tee/Kaffee für die Gäste;
+                        Tea / coffee for guests;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Snacks (Chips/Popcorn im Sortiment) und unbegrenzte Cola;
+                        Snacks (chips / popcorn in the assortment) and unlimited cola;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dekoration Kugeln (15 Stk.);
+                        Decoration balls (15 pcs.);
                       </p>
-                      <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Geburtstagskuchen;
-                      </p>
+                      <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Birthday cake;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Fotoshooting;</p>
                       <br />
                       <button
                         className="button main_button fourth_button"
                         onClick={() => setPartyThird(true)}
                       >
-                        Saal Buchen
+                        Book room
                       </button>
                     </div>
                   </div>
@@ -540,7 +523,7 @@ const HomePage = () => {
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix" style={{}}>
                     <center>
-                      <h2>Feedback unserer Besucher</h2>
+                      <h2>Feedback from our visitors</h2>
                     </center>
                   </div>
                 </div>
@@ -560,17 +543,12 @@ const HomePage = () => {
                       />
                     </div>
                     <div className="desc_wrapper">
-                      <h4 className="title">Louisa Bäcker</h4>
+                      <h4 className="title">Anna Bran</h4>
                       <div className="desc">
-                        Wir haben uns gestern im Anti-Filmtheater getroffen, um
-einen Film zu sehen, den wir selbst gemacht haben.Wir
-sind sehr damit zufrieden! Wir waren 11, versammelt in
-der 9. Halle in der Rusakowskaja Straße. Der Bildschirm ist
-hell, der Klang ist gut. Jetzt sehe ich, dass keine bessere Stelle
-für dieses Treffen zu finden war. Sicher kommen wir wieder!
-Heute besuchen wir das Anti-Kino-Haus mit einer großen
-Firma :)
-
+                        We met at the Private Cafe yesterday to see a movie that we were made it ourselves.We
+                        are very happy with it! We were 11, gathered in the 9th The screen is bright, the
+                        sound is good. Now I see no better place was to be found for this meeting. We'll be
+                        back for sure! Today we visit that Private cafe with a big company :)
                         <br />
                         <br />
                       </div>
@@ -589,16 +567,13 @@ Firma :)
                       />
                     </div>
                     <div className="desc_wrapper">
-                      <h4 className="title">Sebastian Fuhrmann</h4>
+                      <h4 className="title">Ben Henderson</h4>
                       <div className="desc">
-                        Wir waren hier einmal mit einem Mädchen zu Besuch.
-Wenn Sie nach einem gemütlichen Ort suchen, um ruhig
-auf bequemen Stühlen/ Sofas Ihre Lieblingsfilme zu sehen
-und Ihre Lieblings-Cocktail zu trinken, sind Sie hier richtig.
-Wir haben auch gut geschlafen. Der einzige Nachteil ist,
-dass die Vorauszahlung kann von einer Karte
-vorgenommen wird. Rückerstattung läuft innerhalb von 24
-Stunden nach einem persönlichen Besuch ab. 
+                        We visited here once with a girl. If you are looking for a cozy place looking to
+                        quietly sit on comfortable chairs / sofas to watch your favorite films and yours
+                        Favorite cocktail drink, you've come to the right place. We slept well too. The only
+                        downside is that prepayment can be made from a card will. Refunds expire within 24
+                        hours of a face-to-face visit.
                         <br />
                         <br />
                       </div>
@@ -621,14 +596,12 @@ Stunden nach einem persönlichen Besuch ab.
                       />
                     </div>
                     <div className="desc_wrapper">
-                      <h4 className="title">Ella Hofer</h4>
+                      <h4 className="title">Ella Almer</h4>
                       <div className="desc">
-                        Ich feierte meinen Geburtstag und war sehr glücklich.!) Die
-Ausstattung lief reibungslos, der Saal war sauber und
-gemütlich. Die Kosten entsprechen der Qualität. Vielen Dank
-an Margaret für alles! ) Mein einziger Wunsch ist es, die
-Auswahl an Getränken zu einem erschwinglichen Preis zu
-vergrössern) Frohes Neujahr! 
+                        I celebrated my birthday and was very happy.!) The equipment worked smoothly, the hall
+                        was clean and comfortable. The cost corresponds to the quality. Thank you Margaret for
+                        everything! ) My only wish is to choose from Drinks at an affordable price to enlarge)
+                        Happy New Years!
                         <br />
                         <br />
                       </div>
@@ -647,22 +620,16 @@ vergrössern) Frohes Neujahr!
                       />
                     </div>
                     <div className="desc_wrapper">
-                      <h4 className="title">Nikolas Meinhardt</h4>
+                      <h4 className="title">John Carmey</h4>
                       <div className="desc">
-                        Hallo, mein Name ist Nikolas, und wir besuchten Kino
-zusammen mit einem Mädchen. Wir wollten einen
-Kommentar zu diesem Ort hinterlassen! Wir wurden sehr
-nett empfangen und in unseres Zimmer gebracht. Dies ist
-sehr gemütlich. Viele Kissen und eine Decke, ein sehr
-weiches und bequemes Sofa, ein schöner Teppich sind
-vorhanden. Die Stelle ist bequem für Filmanzeige. Schönes
-Bild vom Projektor, das gute Tönen übertragen perfekt die
-ganze Aktion. Tatsächlich gibt es viele interessante und
-angenehme Momente, die niemanden gleichgültig lassen.
-Vielen Dank an alle Menschen, die in diesem Kinotheater
-arbeiten , Sie machen einen tollen Job, wir kommen mehr
-als einmal zu Ihnen zurück!
-
+                        Hello, my name is John and we went to Private Cafe together with one Girl. We wanted
+                        to leave a comment on this place! We became very nice received and brought to our
+                        room. This is very cozy. Lots of pillows and a blanket, a very soft and comfortable
+                        sofa, a nice carpet are available. The place is convenient for movie viewing. Nice
+                        picture from the projector, the good sounding perfectly transmit the whole action.
+                        Indeed there are many interesting ones pleasant moments that leave no one indifferent.
+                        Thank you to all people who work in this place, you do a great job, we come more than
+                        once back to you!
                         <br />
                         <br />
                       </div>
@@ -683,97 +650,61 @@ als einmal zu Ihnen zurück!
               <div className="mcb-wrap-inner">
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix" style={{}}>
-                    <h2>Wie kommen wir dahin?</h2>
-                      <div className="footer-impressum">
-                        <p>
-                          Impressum
-                          <br /> <br /> Betreiber der Website
-                          <br />
-                          Privates Cafe KG
-                          <br />
-                          Fasanenstraße 85
-                          <br />
-                          10623 Berlin
-                          <br />
-                          Deutschland
-                          <br />
-                          <br />
-                          Handelsregister HR A 101007 <br />
-                          Amtsgericht Berlin
-                          <br />
-                          <br /> Geschaftsfuhrer: <br />
-                          Alexander Muller
-                          <br /> Kontaktierbar uber o. a. Anschrift
-                          <br /> USt-IdNr. nach §27a UStG:
-                          <br /> DE238472376
-                        </p>
-                        <p>
-                          Kontakt <br />
-                          <br />
-                          Unterstutzung zur Nutzung von Privates Cafe erhalten Sie uber diesen Link sowie
-                          unten rechts uber die Schaltflache „Chat“.
-                          <br />
-                          <br /> Rechtliche und behordliche Anfragen nehmen wir per Post, per Fax unter +49 30
-                          228688059
-                          <br /> telefonisch unter +49 30 228688059. Unsere allgemeine E-Mail-Adresse lautet
-                          kontakt@privatescafe.com, auch sind wir uber die o. a. Rufnummer erreichbar. Fur
-                          Fragen rund um den Support zur Nutzung von Kino-Haus bitten wir um Nutzung des o. a.
-                          Links oder der Schaltflache „Chat“.
-                        </p>
-                      </div>
-                      <div className="main_seven-flex">
-                        <div className="main_seven-item adress_item">
-                          <div className="adress-wrap">
-                            <p className="main_seven-phone">
-                              <a className="roistat-phone" href="tel:74996497094">
-                                +7 (499) 649-70-94
-                              </a>
-                              <br />
-                            </p>
-                            <ul>
-                              <li>
-                                <span>So-Do</span> 12:00 - 00:00
-                              </li>
-                              <li>
-                                <span>Fr - Sa</span> 12:00 - 06:00
-                              </li>
-                              <li>
-                                <span>Adressen: </span>
-                                <ul className="contacts-list-inner">
-                                  <li>
-                                    <span>Fischerinsel 5, 10179 Berlin</span>
-                                  </li>
-                                  <li>
-                                    <span>Wikingerweg 14, 20537 Hamburg</span>
-                                  </li>
-                                  <li>
-                                    <span>Baaderstraße 76, 80469 München</span>
-                                  </li>
-                                  <li>
-                                    <span>Follerstraße 96, 50676 Köln</span>
-                                  </li>
-                                  <li>
-                                    <span>Gutleutstraße 176, 60327 Frankfurt am Main</span>
-                                  </li>
-                                  <li>
-                                    <span>Hohe Str. 12, 70174 Stuttgart</span>
-                                  </li>
-                                  <li>
-                                    <span>Königsallee, 40215 Düsseldorf</span>
-                                  </li>
-                                  <li>
-                                    <span>Große Heimstraße 54, 44137 Dortmund</span>
-                                  </li>
-                                  <li>
-                                    <span>Rüttenscheider Str. 131, 45130 Essen</span>
-                                  </li>
-                                  <li>
-                                    <span>Faulenstraße 71, 28195 Bremen</span>
-                                  </li>
-                                </ul>
-                              </li>
-                            </ul>
-                          </div>
+                    <h2>How do we get there?</h2>
+                    <div className="footer-impressum" style={{ marginTop: '40px' }}>
+                      <p>
+                        Contact <br />
+                        <br />
+                        You can get support for using Private Cafe via this link and via the "Chat" button at
+                        the bottom right.
+                        <br />
+                        <br /> We take legal and regulatory inquiries by post, by fax on +44 020 577-5506
+                        <br /> by phone at +44 020 577-5506. Our general e-mail address is
+                        contact@privatescafe.com, we are also about the o. a. Call number reachable. For If
+                        you have any questions about support for the use of Privates Cafe, please use the
+                        above. Left or the button "Chat".
+                      </p>
+                    </div>
+                    <div className="main_seven-flex">
+                      <div className="main_seven-item adress_item">
+                        <div className="adress-wrap">
+                          <p className="main_seven-phone">
+                            <a className="roistat-phone" href="tel:74996497094">
+                              +7 (499) 649-70-94
+                            </a>
+                            <br />
+                          </p>
+                          <ul>
+                            <li>
+                              <span>Mo-Th</span> 12:00 - 00:00
+                            </li>
+                            <li>
+                              <span>Fr-Su</span> 12:00 - 06:00
+                            </li>
+                            <li>
+                              <span>Adress: </span>
+                              <ul className="contacts-list-inner">
+                                <li>
+                                  <span>27 Woolwich Rd, London SE10 0RA</span>
+                                </li>
+                                <li>
+                                  <span>671A Fulham Rd., London SW6 5PZ</span>
+                                </li>
+                                <li>
+                                  <span>171 Stroud Green Rd, Finsbury Park, London N4 3PZ</span>
+                                </li>
+                                <li>
+                                  <span>5 Lower Temple St, Birmingham B2 4JD</span>
+                                </li>
+                                <li>
+                                  <span>33 Park Row, Leeds LS1 1LD</span>
+                                </li>
+                                <li>
+                                  <span>59 Whitechapel, Liverpool L1 6DX</span>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -782,20 +713,7 @@ als einmal zu Ihnen zurück!
               </div>
             </div>
           </div>
-          <div className="section the_content no_content" />
-          <div className="section section-page-footer">
-            <div className="section_wrapper clearfix">
-              <div className="column one page-pager"></div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  );
-};
-
-export default HomePage;
-
         <div className="section the_content no_content" />
         <div className="section section-page-footer">
           <div className="section_wrapper clearfix">

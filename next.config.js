@@ -4,6 +4,7 @@ const config = {
   distDir: 'dist',
   env: {
     API: process.env.API,
+    MAPBOX_TOKEN: process.env.MAPBOX_TOKEN,
   },
   webpack: (config) => {
     // Fixes npm packages that depend on `fs` module

@@ -6,15 +6,17 @@ import { PaymentCard } from '../../containers';
 
 export const PaymentLayout = ({ children, card, cardVisible = true }) => {
   const router = useRouter();
-  const totalAmount = router.query.price;
+  // const totalAmount = router.query.price;
 
   return (
     <React.Fragment>
       <div className="payment-info">
-        <div className="payment-text">Befehl: #21838213</div>
-        <div className="payment-text">Aufwand: {totalAmount} €</div>
+        {/* <div className="payment-text">Number of ticket: #21838213</div>
+        <div className="payment-text">Price: {totalAmount} $</div> */}
         <div className="payment-text">
-          Bestellungen werden von <br /> 12:00 bis 00:00 bearbeitet
+          The room fee is charged upon arrival at the cafe. When you add a card to check the correctness of
+          the entered data, £1 is held (frozen) on your account, and then automatically returned (without
+          SMS-notifications).
         </div>
       </div>
       <div className="wrapper">

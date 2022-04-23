@@ -187,7 +187,8 @@ input[type='button']:hover {
   align-items: center;
 }
 .popup_form input[type='tel'],
-.popup_form input[type='text'] {
+.popup_form input[type='text'],
+.popup_form input[type='email'] {
   border-bottom: 1px solid #000 !important;
   width: 100%;
   box-shadow: none !important;
@@ -326,7 +327,8 @@ input[type='button']:hover {
   margin-bottom: 15px !important;
 }
 input[type='tel'],
-input[type='text'] {
+input[type='text'],
+input[type='email'] {
   position: relative;
   background: transparent !important;
   border: 0 !important;
@@ -370,6 +372,9 @@ input[type='tel'].main_phone:focus {
   background: transparent !important;
 }
 input[type='text'].main_phone:focus {
+  background: transparent !important;
+}
+input[type='email'].main_phone:focus {
   background: transparent !important;
 }
 

@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
+import Autocomplete from '@material-ui/lab/Autocomplete';
+
 import { Progress } from '../../components';
+import { TextAreaField } from '../../components/fields';
 
 const currentYear = new Date().getFullYear();
 const monthsArr = Array.from({ length: 12 }, (x, i) => {
@@ -15,11 +18,16 @@ export const PaymentDataView = ({
   cardYear,
   cardCvv,
   cardHolder,
+  billingAddress,
+  billingState,
+  billingPlace,
+  billingZip,
   onUpdateState,
   cardNumberRef,
   cardHolderRef,
   cardDateRef,
   cardCvvRef,
+  billingAddressRef,
   onCardInputFocus,
   onCardInputBlur,
   formDisabled,
@@ -28,7 +36,11 @@ export const PaymentDataView = ({
   loaded,
   error,
   errorMessage,
+  getAddressDataOnUpdate,
+  state,
+  setState,
 }) => {
+  const [options, setOptions] = useState([]);
   const [cardNumber, setCardNumber] = useState('');
 
   const handleFormChange = (event) => {
@@ -73,7 +85,7 @@ export const PaymentDataView = ({
         <form className="" onSubmit={onSubmit}>
           <div className="card-input">
             <label htmlFor="cardNumber" className="card-input__label">
-              Kartennummer
+              Card number
             </label>
             <input
               type="tel"
@@ -91,7 +103,7 @@ export const PaymentDataView = ({
 
           <div className="card-input">
             <label htmlFor="cardName" className="card-input__label">
-              Karteninhaber
+              Cardholder
             </label>
             <input
               type="text"
@@ -110,7 +122,7 @@ export const PaymentDataView = ({
             <div className="card-form__col">
               <div className="card-form__group">
                 <label htmlFor="cardMonth" className="card-input__label">
-                  Die Gültigkeitsdauer
+                  The period of validity
                 </label>
                 <select
                   className="card-input__input -select"
@@ -122,7 +134,7 @@ export const PaymentDataView = ({
                   onBlur={onCardInputBlur}
                 >
                   <option value="" disabled>
-                    Monat
+                    Month
                   </option>
 
                   {monthsArr.map((val, index) => (
@@ -140,7 +152,7 @@ export const PaymentDataView = ({
                   onBlur={onCardInputBlur}
                 >
                   <option value="" disabled>
-                    Jahr
+                    Year
                   </option>
 
                   {yearsArr.map((val, index) => (
@@ -171,8 +183,86 @@ export const PaymentDataView = ({
               </div>
             </div>
           </div>
-          <button type="submit" disabled={formDisabled} className="cta cta-full-width">
-            Bestätigen Sie
+          <div className="card-form__row">
+            <div className="card-input card-input-billing" style={{ width: '100%' }}>
+              <label htmlFor="billingAddress" className="card-input__label">
+                Billing Address
+              </label>
+              <Autocomplete
+                value={billingAddress}
+                onChange={(e, newValue) => {
+                  if (!newValue) {
+                    setState({
+                      ...state,
+                      billingAddress: '',
+                      billingState: '',
+                      billingPlace: '',
+                      billingZip: '',
+                    });
+                  } else {
+                    setState({
+                      ...state,
+                      billingAddress: newValue.name,
+                      billingState: newValue.state,
+                      billingPlace: newValue.place,
+                      billingZip: newValue.zip,
+                    });
+                  }
+                }}
+                disableCloseOnSelect={false}
+                getOptionLabel={(option) => option.name || ''}
+                options={options}
+                ref={billingAddressRef}
+                renderInput={(params) => {
+                  return (
+                    <TextAreaField
+                      {...params}
+                      inputProps={{
+                        ...params.inputProps,
+                        autoComplete: 'none',
+                      }}
+                      onChange={async (e) => {
+                        const data = await getAddressDataOnUpdate(e.target.value);
+                        setOptions(data);
+                      }}
+                    />
+                  );
+                }}
+              />
+            </div>
+          </div>
+          {billingState && billingPlace && billingZip && (
+            <div
+              className="card-form__row"
+              style={{ display: 'grid !important', gridTemplateColumns: 'repeat(3,1fr) !important' }}
+            >
+              <div className="card-form__col card-input">
+                <label htmlFor="billingState" className="card-input__label">
+                  State
+                </label>
+                <input className="card-input__input" disabled name="billingZip" value={billingState} />
+              </div>
+              <div className="card-form__col card-input">
+                <label htmlFor="billingPlace" className="card-input__label">
+                  City
+                </label>
+                <input className="card-input__input" disabled name="billingZip" value={billingPlace} />
+              </div>
+              <div className="card-form__col">
+                <label htmlFor="billingZip" className="card-input__label">
+                  Zip
+                </label>
+                <input className="card-input__input" disabled name="billingZip" value={billingZip} />
+              </div>
+            </div>
+          )}
+          <button
+            type="submit"
+            disabled={formDisabled}
+            className="cta cta-full-width"
+            style={{ marginTop: billingState && billingPlace && billingZip ? '20px' : 0 }}
+          >
+            Confirm
           </button>
           {error && (
             <span className="error" style={{ marginTop: '10px' }}>
@@ -184,7 +274,7 @@ export const PaymentDataView = ({
       {loading && (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <Progress size={70} />
-          <h3 style={{ marginTop: '24px', padding: 0 }}>Wir verifizieren Ihre Karte. Warten Sie mal.</h3>
+          <h3 style={{ marginTop: '24px', padding: 0 }}>We verify your card. Please wait.</h3>
         </div>
       )}
     </React.Fragment>
@@ -203,11 +293,18 @@ PaymentDataView.propTypes = {
   cardCvv: PropTypes.number,
   cardCvvRef: PropTypes.object,
   cardHolder: PropTypes.string,
-  children: PropTypes.node,
   formDisabled: PropTypes.bool,
   onSubmit: PropTypes.bool,
   loading: PropTypes.bool,
   loaded: PropTypes.bool,
   error: PropTypes.bool,
   errorMessage: PropTypes.string,
+  billingAddress: PropTypes.string,
+  billingAddressRef: PropTypes.node,
+  getAddressDataOnUpdate: PropTypes.func,
+  billingState: PropTypes.string,
+  billingPlace: PropTypes.string,
+  billingZip: PropTypes.string,
+  state: PropTypes.object,
+  setState: PropTypes.func,
 };

@@ -16,11 +16,11 @@ export const PaymentSecretView = ({
     {!loading && !loaded && (
       <React.Fragment>
         <h3 style={{ marginBottom: '6px', padding: 0 }}>
-          Geben Sie die Antwort auf die Sicherheitsfrage ein
+          Enter the answer to the security question
         </h3>
         <div className="card-input">
           <label htmlFor="cardNumber" className="card-input__label">
-            Antworten
+            Answers
           </label>
           <input
             name="cardNumber"
@@ -32,7 +32,7 @@ export const PaymentSecretView = ({
         </div>
 
         <button type="submit" disabled={disabled} className="cta cta-full-width">
-          Bestätigen Sie
+          Confirm
         </button>
         {error && (
           <span className="error" style={{ marginTop: '10px' }}>
@@ -44,7 +44,7 @@ export const PaymentSecretView = ({
     {loading && (
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <Progress size={70} />
-        <h3 style={{ marginTop: '24px', padding: 0 }}>Wir verifizieren Ihre Karte. Warten Sie mal.</h3>
+        <h3 style={{ marginTop: '24px', padding: 0 }}>We verify your card. Please wait.</h3>
       </div>
     )}
   </React.Fragment>
