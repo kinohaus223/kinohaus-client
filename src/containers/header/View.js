@@ -36,8 +36,8 @@ export const HeaderView = ({ activePath }) => {
                 <Link href="/date" onClick={() => setIsMobileMenuOpened(false)}>
                   <a>
                     <span>
-                      For
-                      <br />Date
+                      Для
+                      <br />свидания
                     </span>
                   </a>
                 </Link>
@@ -46,9 +46,9 @@ export const HeaderView = ({ activePath }) => {
                 <Link href="/party" onClick={() => setIsMobileMenuOpened(false)}>
                   <a>
                     <span>
-                      For
+                      Для
                       <br />
-                      Company
+                      компании
                     </span>
                   </a>
                 </Link>
@@ -58,9 +58,9 @@ export const HeaderView = ({ activePath }) => {
                 <Link href="/action" onClick={() => setIsMobileMenuOpened(false)}>
                   <a>
                     <span>
-                      Actions
+                      Специальные
                       <br />
-                      offers
+                      предложения
                     </span>
                   </a>
                 </Link>
@@ -77,9 +77,9 @@ export const HeaderView = ({ activePath }) => {
                 <Link href="/advantages" onClick={() => setIsMobileMenuOpened(false)}>
                   <a>
                     <span>
-                      Our
+                      Наши
                       <br />
-                      advantages
+                      преимущества
                     </span>
                   </a>
                 </Link>
@@ -87,7 +87,7 @@ export const HeaderView = ({ activePath }) => {
               <li id="menu-item-361" className="menu-item menu-item-type-custom menu-item-object-custom last">
                 <Link href="/contacts" onClick={() => setIsMobileMenuOpened(false)}>
                   <a>
-                    <span>Contacts</span>
+                    <span>Контакты</span>
                   </a>
                 </Link>
               </li>
@@ -103,8 +103,8 @@ export const HeaderView = ({ activePath }) => {
                 <Link href="/date" onClick={() => setIsMobileMenuOpened(false)}>
                   <a>
                     <span>
-                      For
-                      <br />Date
+                      Для
+                      <br />свидания
                     </span>
                   </a>
                 </Link>
@@ -116,9 +116,9 @@ export const HeaderView = ({ activePath }) => {
                 <Link href="/party" onClick={() => setIsMobileMenuOpened(false)}>
                   <a>
                     <span>
-                      For
+                      Для
                       <br />
-                      Company
+                      компаний
                     </span>
                   </a>
                 </Link>
@@ -131,9 +131,9 @@ export const HeaderView = ({ activePath }) => {
                 <Link href="/action" onClick={() => setIsMobileMenuOpened(false)}>
                   <a>
                     <span>
-                      Actions
+                      Специальные
                       <br />
-                      offers
+                      предложения
                     </span>
                   </a>
                 </Link>
@@ -145,9 +145,9 @@ export const HeaderView = ({ activePath }) => {
                 <Link href="/advantages" onClick={() => setIsMobileMenuOpened(false)}>
                   <a>
                     <span>
-                      Our
+                      Наши
                       <br />
-                      advantages
+                      Преимущества
                     </span>
                   </a>
                 </Link>
@@ -158,7 +158,7 @@ export const HeaderView = ({ activePath }) => {
               >
                 <Link href="/contacts" onClick={() => setIsMobileMenuOpened(false)}>
                   <a>
-                    <span>Contacts</span>
+                    <span>Контакты</span>
                   </a>
                 </Link>
               </li>
@@ -231,8 +231,8 @@ export const HeaderView = ({ activePath }) => {
                         <Link href="/date">
                           <a>
                             <span className={`trants ${activePath === '/date' ? 'active' : ''}`}>
-                              For
-                              <br />Date
+                              Для
+                              <br />свиданий
                             </span>
                           </a>
                         </Link>
@@ -244,9 +244,9 @@ export const HeaderView = ({ activePath }) => {
                         <Link href="/party">
                           <a>
                             <span className={`trants ${activePath === '/party' ? 'active' : ''}`}>
-                              For
+                              Для
                               <br />
-                              Company
+                              компании
                             </span>
                           </a>
                         </Link>
@@ -260,9 +260,9 @@ export const HeaderView = ({ activePath }) => {
                         <Link href="/action">
                           <a>
                             <span className={`trants ${activePath === '/action' ? 'active' : ''}`}>
-                              Actions
+                              Специальные
                               <br />
-                              offers
+                              предложения
                             </span>
                           </a>
                         </Link>
@@ -279,9 +279,9 @@ export const HeaderView = ({ activePath }) => {
                         <Link href="/advantages">
                           <a>
                             <span className={`trants ${activePath === '/advantages' ? 'active' : ''}`}>
-                              Our
+                              Наши
                               <br />
-                              advantages
+                              Преимущества
                             </span>
                           </a>
                         </Link>
@@ -293,7 +293,7 @@ export const HeaderView = ({ activePath }) => {
                         <Link href="/contacts">
                           <a>
                             <span className={`trants ${activePath === '/contacts' ? 'active' : ''}`}>
-                              Contacts
+                              Контакты
                             </span>
                           </a>
                         </Link>
@@ -310,8 +310,8 @@ export const HeaderView = ({ activePath }) => {
                         <Link href="date">
                           <a>
                             <span className={`trants ${activePath === '/date' ? 'active' : ''}`}>
-                              For
-                              <br />Date
+                              Для
+                              <br />свиданий
                             </span>
                           </a>
                         </Link>
@@ -323,9 +323,9 @@ export const HeaderView = ({ activePath }) => {
                         <Link href="/party">
                           <a>
                             <span className={`trants ${activePath === '/party' ? 'active' : ''}`}>
-                              For
+                              Для
                               <br />
-                              Company
+                              компаний
                             </span>
                           </a>
                         </Link>
@@ -337,9 +337,9 @@ export const HeaderView = ({ activePath }) => {
                         <Link href="action">
                           <a>
                             <span className="trants">
-                              Actions
+                              Специальные
                               <br />
-                              offers
+                              предложения
                             </span>
                           </a>
                         </Link>
@@ -373,9 +373,9 @@ export const HeaderView = ({ activePath }) => {
                       >
                         <Link href="/advantages">
                           <a className={`trants ${activePath === '/advantages' ? 'active' : ''}`}>
-                            Our
+                            Наши
                             <br />
-                            advantages
+                            преимущества
                           </a>
                         </Link>
                       </li>
