@@ -15,44 +15,44 @@ const HomePage = () => {
       <PaymentPopup
         open={dateFirst}
         onClose={() => setDateFirst(false)}
-        title="Surprise"
+        title="Сюрприз"
         hours="3"
-        price="40"
+        price="5500"
       />
       <PaymentPopup
         open={dateSecond}
         onClose={() => setDateSecond(false)}
-        title="Love evening"
+        title="Любовный вечер"
         hours="3"
-        price="80"
+        price="10500"
       />
       <PaymentPopup
         open={dateThird}
         onClose={() => setDateThird(false)}
-        title="Date in the Stars"
+        title="Свидание над звёздами"
         hours="4"
-        price="190"
+        price="15500"
       />
       <PaymentPopup
         open={partyFirst}
         onClose={() => setPartyFirst(false)}
-        title="All friends"
+        title="С друзьями"
         hours="3"
-        price="250"
+        price="20500"
       />
       <PaymentPopup
         open={partySecond}
         onClose={() => setPartySecond(false)}
-        title="All you need"
+        title="Все что нужно"
         hours="3"
-        price="340"
+        price="25500"
       />
       <PaymentPopup
         open={partyThird}
         onClose={() => setPartyThird(false)}
-        title="Everything and immediately"
+        title="Всё и сразу"
         hours="3"
-        price="430"
+        price="30500"
       />
       <div className="sections_group">
         <div className="entry-content" itemProp="mainContentOfPage">
@@ -71,7 +71,7 @@ const HomePage = () => {
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center">
-                      <h2>Our rooms</h2>
+                      <h2>Наши комнаты</h2>
                       <hr
                         style={{
                           width: '100px',
@@ -81,7 +81,7 @@ const HomePage = () => {
                           borderTop: '2px solid #e5097f',
                         }}
                       />
-                      <p>We have 3 perfect variants for you:</p>
+                      <p>У нас есть 3 идеальных варианта для вас:</p>
                     </div>
                   </div>
                 </div>
@@ -100,46 +100,46 @@ const HomePage = () => {
                           />
                         </div>
                         <h2></h2>
-                        <h3>Surprise</h3>
+                        <h3>Сюрприз</h3>
                         <div className="price">
-                          <span>40</span>
-                          <sup className="currency">£</sup>
+                          <span>20500</span>
+                          <sup className="currency">₽</sup>
                           <sup className="period" />
                         </div>
                         <hr className="hr_color" />
                         <p className="subtitle"></p>
                         <p style={{ color: '#ffffff' }}>
-                          At the order
+                          При заказе
                           <br />
-                          Surprise you will receive:
+                          Сюрприз вы получите:
                         </p>
                         <p />
                       </div>
                       <div className="plan-inside">
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Romantic decoration of the hall with rose petals and candles;
+                          Романтическое оформление зала лепестками роз и свечами;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Preselection of favorite film or music;
+                          Предварительный выбор любимого фильма или музыки;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Dinner for two (Italian, Japanese, Chinese cuisine, to choose from);
+                          Ужин на двоих (итальянская, японская, китайская кухня на выбор);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Delicious desserts: chocolate fondue with fruits;
+                          Вкуснейшие десерты: шоколадное фондю с фруктами;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Tea or coffee (to choose from);
+                          Чай или кофе (на выбор);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Duration: 3 hours.
+                          Продолжительность: 3 часа.
                         </p>
                         <button
                           className="button main_button fourth_button"
                           style={{ float: 'center' }}
                           onClick={() => setDateFirst(true)}
                         >
-                          Book room
+                          Забронировать комнату
                         </button>
                       </div>
                     </div>
@@ -151,49 +151,49 @@ const HomePage = () => {
                           <img src="style/img/vip-7-new.jpeg" alt="vip-7-new" width={600} height={370} />
                         </div>
                         <h2></h2>
-                        <h3>Love evening</h3>
+                        <h3>Любовный вечер</h3>
                         <div className="price">
-                          <span>80</span>
-                          <sup className="currency">£</sup>
+                          <span>10500</span>
+                          <sup className="currency">₽</sup>
                           <sup className="period" />
                         </div>
                         <hr className="hr_color" />
                         <p className="subtitle"></p>
                         <p style={{ color: '#ffffff' }}>
-                          At the order
+                          При заказе
                           <br />
-                          "Love evening" you receive:
+                          "Вечер любви" вы получаете:
                         </p>
                         <p />
                       </div>
                       <div className="plan-inside">
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Romantic decoration of the hall with rose petals and candles;
+                          Романтическое оформление зала лепестками роз и свечами;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Preselection of favorite film or music;
+                          Предварительный выбор любимого фильма или музыки;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Dinner for two (Italian, Japanese, Chinese cuisine, to choose from);
+                          Ужин на двоих (итальянская, японская, китайская кухня на выбор);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Delicious desserts: chocolate fondue with fruits;
+                          Вкуснейшие десерты: шоколадное фондю с фруктами;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Tea or coffee (to choose from);
+                          Чай или кофе (на выбор);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Surprise from "Private Cafe": a bottle of champagne
+                          Сюрприз от "Private Cafe": бутылка шампанского
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Duration: 3 hours.
+                          Продолжительность: 3 часа.
                         </p>
                         <button
                           className="button main_button fourth_button"
                           style={{ float: 'center' }}
                           onClick={() => setDateSecond(true)}
                         >
-                          Book room
+                          Забронировать комнату
                         </button>
                       </div>
                     </div>
@@ -205,59 +205,59 @@ const HomePage = () => {
                           <img src="style/img/vip-15-new.jpeg" alt="vip-15-new" width={600} height={370} />
                         </div>
                         <h2></h2>
-                        <h3>Date in the Stars</h3>
+                        <h3></h3>
                         <div className="price">
-                          <span>190</span>
-                          <sup className="currency">£</sup>
+                          <span>15500</span>
+                          <sup className="currency">₽</sup>
                           <sup className="period" />
                         </div>
                         <hr className="hr_color" />
                         <p className="subtitle"></p>
                         <p style={{ color: '#ffffff' }}>
-                          At the order
+                          При заказе 
                           <br />
-                          You will receive a «Date in the Stars»:
+                          "Свидание в звездах" Вы получите:
                         </p>
                         <p />
                       </div>
                       <div className="plan-inside">
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Megaromantic decoration of the great hall with rose petals, candles, balls (20th
-                          Pc.);
+                          Мегаромантическое украшение большого зала лепестками роз, свечами, шарами (20
+                          Шт.);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Dinner for two (Italian, Japanese, Chinese cuisine, to choose from);
+                          Ужин на двоих (итальянская, японская, китайская кухня на выбор);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px' }}>
-                          Photo shoot at the end of the date;
+                          Фотосессия в конце свидания;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Bouquet of flowers for the woman / favorite dish for the man;
+                          Букет цветов для женщины / любимое блюдо для мужчины;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Delicious desserts: chocolate fondue with fruits;
+                          Вкусные десерты: шоколадное фондю с фруктами;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Tea or coffee (to choose from);
+                          Чай или кофе (на выбор);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Surprise from "Private Cafe": a bottle of "Mondoro" champagne or wine (for
-                          Selection);
+                          Сюрприз от "Private Cafe": бутылка шампанского "Mondoro" или вина (на
+                          выбор);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Duration: 4 hours;
+                          Продолжительность: 4 часа;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Preselection of favorite film or music;
+                          Предварительный выбор любимого фильма или музыки;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Ein Geschenk von "Private Cafe" - "River Cruise on the River"
+                          Подарок от "Private Cafe" - "Речной круиз по реке"
                         </p>
                         <button
                           className="button main_button fourth_button"
                           onClick={() => setDateThird(true)}
                         >
-                          Book room
+                          Забронировать комнату
                         </button>
                       </div>
                     </div>
@@ -281,7 +281,7 @@ const HomePage = () => {
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center">
-                      <h2>Rest solutions with the company</h2>
+                      <h2>Решения для отдыха вместе с компанией</h2>
                       <hr
                         style={{
                           width: '100px',
@@ -291,7 +291,7 @@ const HomePage = () => {
                           borderTop: '2px solid #e5097f',
                         }}
                       />
-                      <p>3 options for turnkey celebrations</p>
+                      <p>3 варианта торжеств под ключ</p>
                     </div>
                   </div>
                 </div>
@@ -304,35 +304,35 @@ const HomePage = () => {
                         <div className="image">
                           <img src="style/img/vsesloyi.jpeg" alt="vsesloyi" width={600} height={370} />
                         </div>
-                        <h2>With all friends</h2>
+                        <h2>С друзьями</h2>
                         <div className="price">
                           <span>250</span>
-                          <sup className="currency">£</sup>
+                          <sup className="currency">₽</sup>
                           <sup className="period" />
                         </div>
                         <hr className="hr_color" />
                         <p className="subtitle"></p>
                         <p style={{ color: '#ffffff' }}>
-                          Passt für eine Veranstaltung maximal für 10 Personen.
+                          Предназначен на 10 человек для одного мероприятия.
                           <br />
-                          Time - 3 hours
+                          Продолжительность - 3 часа
                           <br />
                           (Big hall).
                         </p>
                         <p />
                       </div>
                       <div className="plan-inside">
-                        This is also available:
+                        В пакете доступно:
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Watch music videos and films;
+                          Смотрите музыкальные клипы и фильмы;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Board games (large selection);
+                          Настольные игры (большой выбор);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          1 good for all tastes; Tea / coffee for guests
+                          Торт на любой вкус; чай / кофе для гостей
                         </p>
                         <br />
                         <button
@@ -340,7 +340,7 @@ const HomePage = () => {
                           style={{ float: 'center' }}
                           onClick={() => setPartyFirst(true)}
                         >
-                          Book room
+                          Забронировать комнату
                         </button>
                       </div>
                     </div>
@@ -351,18 +351,18 @@ const HomePage = () => {
                         <div className="image">
                           <img src="style/img/vsechtonado.jpeg" alt="vsechtonado" width={600} height={370} />
                         </div>
-                        <h2>All you need</h2>
+                        <h2>Все что нужно</h2>
                         <div className="price">
-                          <span>340</span>
-                          <sup className="currency">£</sup>
+                          <span>25500</span>
+                          <sup className="currency">₽</sup>
                           <sup className="period" />
                         </div>
                         <hr className="hr_color" />
                         <p className="subtitle"></p>
                         <p style={{ color: '#ffffff' }}>
-                          Fits for one event for a maximum of 15 people.
+                          Подходит для одного мероприятия, рассчитанного максимум на 15 человек.
                           <br />
-                          Time - 3 hours
+                          Продолжительность - 3 часа
                           <br />
                           (Big hall).
                         </p>
@@ -372,17 +372,17 @@ const HomePage = () => {
                         This is also available:
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Watch music videos and films;
+                          Смотрите музыкальные клипы и фильмы;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Board games (large selection);
+                          Настольные игры (большой выбор);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          2 good ones for all tastes; Tea / coffee for guests
+                          2 торта на любой вкус; Чай / кофе для гостей
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Snacks (chips / popcorn in assortment) and unlimited cola;
+                          Закуски (чипсы / попкорн в ассортименте) и неограниченное количество колы;
                         </p>
                         <br />
                         <button
@@ -390,7 +390,7 @@ const HomePage = () => {
                           style={{ float: 'center' }}
                           onClick={() => setPartySecond(true)}
                         >
-                          Book room
+                          Забронировать комнату
                         </button>
                       </div>
                     </div>
@@ -401,42 +401,42 @@ const HomePage = () => {
                         <div className="image">
                           <img src="style/img/vseisrazu.jpeg" alt="vseisrazu" width={600} height={370} />
                         </div>
-                        <h2>Everything and immediately</h2>
+                        <h2>Всё и сразу</h2>
                         <div className="price">
-                          <span>430</span>
-                          <sup className="currency">£</sup>
+                          <span>30500</span>
+                          <sup className="currency">₽</sup>
                           <sup className="period" />
                         </div>
                         <hr className="hr_color" />
                         <p className="subtitle"></p>
                         <p style={{ color: '#ffffff' }}>
-                          Number of guests - up to 50 people.
+                          Количество гостей - до 50 человек.
                           <br />
-                          Time - 3 hours
+                          Продолжительность - 3 часа
                           <br />
-                          (KC ground floor - 2 rooms and a hall).
+                          (KC первого этажа - 2 комнаты и холл).
                         </p>
                         <p />
                       </div>
                       <div className="plan-inside">
-                        This is also available:
+                        В пакете доступно:
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Watch music videos and films;
+                          Смотрите музыкальные клипы и фильмы;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Board games (large selection);
+                          Настольные игры (большой выбор);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Tea / coffee for guests;
+                          Чай / кофе для гостей;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Snacks (chips / popcorn in assortment) and unlimited cola;Decoration balls (15
-                          pcs.);
+                          Закуски (чипсы / попкорн в ассортименте) и неограниченное количество колы;Шары для украшения (15
+                          шт.);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Decoration balls (15 pcs.);
+                          Декоративные шарики (15 шт.);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Birthday cake;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Photo shooting;</p>
@@ -446,7 +446,7 @@ const HomePage = () => {
                           style={{ float: 'center' }}
                           onClick={() => setPartyThird(true)}
                         >
-                          Book room
+                          Забронировать комнату
                         </button>
                       </div>
                     </div>
@@ -465,19 +465,19 @@ const HomePage = () => {
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix">
-                      <h2>How to find us?</h2>
+                      <h2>Как к нам добраться?</h2>
                       <div className="footer-impressum">
                         <p>
-                          Contact <br />
+                          Контакты <br />
                           <br />
-                          You can get support for using Private Cafe via this link and via the "Chat" button
-                          at the bottom right.
+                          Вы можете получить поддержку по использованию Private Cafe по этой ссылке и через кнопку "Чат" в
+                        внизу справа.
                           <br />
-                          <br /> We take legal and regulatory inquiries by post, by fax on +44 020 577-5506
-                          <br /> by phone at +44 020 577-5506. Our general e-mail address is
-                          contact@privatescafe.com, we are also about the o. a. Call number reachable. For If
-                          you have any questions about support for the use of Privates Cafe, please use the
-                          above. Left or the button "Chat".
+                          <br /> Мы принимаем юридические и нормативные запросы по почте, по факсу +44 020 577-5506
+                          <br /> по телефону +44 020 577-5506. Наш общий адрес электронной почты
+                      contact@privatescafe.com. Если
+                      у Вас есть вопросы по использованию сайта, то ,пожалуйста, используйте указанную выше информацию или 
+                      обратитесь в онлайн-чат и получите ответ от специалиста.
                         </p>
                       </div>
                       <div className="main_seven-flex">
@@ -491,10 +491,10 @@ const HomePage = () => {
                             </p>
                             <ul>
                               <li>
-                                <span>Mo-Th</span> 12:00-00:00
+                                <span>Пн-Чт</span> 12:00-00:00
                               </li>
                               <li>
-                                <span>Fr-Su</span> 12:00-06:00
+                                <span>Пт-Вс</span> 12:00-06:00
                               </li>
                               <li>
                                 <span>Adress: </span>

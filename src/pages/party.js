@@ -477,7 +477,7 @@ export const PartyPage = () => {
                         <div className="image">
                           <img src="style/img/vsesloyi.jpeg" alt="vsesloyi" width={600} height={370} />
                         </div>
-                        <h2>All friends</h2>
+                        <h2>С друзьями</h2>
                         <div className="price">
                           <span>15500</span>
                           <sup className="currency">₽</sup>
