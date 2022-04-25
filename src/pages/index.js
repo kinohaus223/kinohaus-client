@@ -79,7 +79,7 @@ const HomePage = () => {
                         Privates Cafe
                       </h1>
                       <div className="main_form_item" onClick={() => setDateFirst(true)}>
-                        <button>Book now</button>
+                        <button>Забронировать сейчас</button>
                       </div>
                     </div>
                   </div>
@@ -90,7 +90,7 @@ const HomePage = () => {
                     <br />
                     <br />
                     <button className="button main_button" onClick={() => setDateFirst(true)}>
-                      Book now
+                      Забронировать сейчас
                     </button>
                   </div>
                 </div>
@@ -128,7 +128,7 @@ const HomePage = () => {
                         borderTop: '2px solid #e5097f',
                       }}
                     />
-                    <p>We have 3 perfect variants for you:</p>
+                    <p>У нас есть 3 идеальных варианта для вас:</p>
                   </div>
                 </div>
               </div>
@@ -155,7 +155,7 @@ const HomePage = () => {
                         <big>
                           At the order
                           <br />
-                          You will receive a «surprise»:
+                          При выборе "сюрприз":
                         </big>
                       </p>
                       <big></big>
@@ -163,23 +163,23 @@ const HomePage = () => {
                     </div>
                     <div className="plan-inside">
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Romantic decoration of the hall with rose petals and candles;
+                        Романтическое оформление зала лепестками роз и свечами;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Preselection of your favorite film or music;
+                        Предварительный выбор любимого фильма или музыки;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dinner for two (Italian, Japanese, Chinese cuisine, to choose from);
+                        Ужин на двоих (итальянская, японская, китайская кухня на выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Delicious desserts: chocolate fondue with fruits;
+                        Вкусные десерты: шоколадное фондю с фруктами;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tea or coffee (to choose from);
+                        Чай или кофе (на выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Duration: 3 hours</p>
                       <button className="button main_button fourth_button" onClick={() => setDateFirst(true)}>
-                        Book room
+                        Забронировать сейчас
                       </button>
                     </div>
                   </div>
@@ -205,7 +205,7 @@ const HomePage = () => {
                         <big>
                           At the order
                           <br />
-                          "Love evening" you receive:
+                          "Вечер любви" вы получаете:
                         </big>
                       </p>
                       <big></big>
@@ -213,25 +213,25 @@ const HomePage = () => {
                     </div>
                     <div className="plan-inside">
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Romantic decoration of the hall with rose petals and candles;
+                        Романтическое оформление зала лепестками роз и свечами;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Preselection of your favorite film or music;
+                        Предварительный выбор любимого фильма или музыки;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dinner for two (Italian, Japanese, Chinese cuisine, to choose from);
+                        Ужин на двоих (итальянская, японская, китайская кухня на выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Delicious desserts: chocolate fondue with fruits;
+                        Вкусные десерты: шоколадное фондю с фруктами;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tea or coffee (to choose from);
+                        Чай или кофе (на выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Surprise from "Private Cafe": a bottle of champagne
+                        Сюрприз от "Private Cafe": бутылка шампанского
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Duration: 3 hours.
+                        Продолжительность: 3 часа.
                       </p>
                       <button
                         className="button main_button fourth_button"
@@ -263,7 +263,7 @@ const HomePage = () => {
                         <big>
                           At the order
                           <br />
-                          Get a "date in the stars":
+                          Устройте "свидание в звездах":
                         </big>
                       </p>
                       <big></big>
@@ -271,36 +271,36 @@ const HomePage = () => {
                     </div>
                     <div className="plan-inside">
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Megaromantic decoration of the great hall with rose petals, candles, balls (20 pcs.)
+                        Мегаромантическое украшение большого зала лепестками роз, свечами, шарами (20 шт.)
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dinner for two (Italian, Japanese, Chinese cuisine, to choose from);
+                        Ужин на двоих (итальянская, японская, китайская кухня на выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px' }}>Fotoshooting am Ende des Datums;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Bouquet of flowers for the woman / favorite dish for the man;
+                        Букет цветов для женщины / любимое блюдо для мужчины;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Delicious desserts: chocolate fondue with fruits;
+                        Вкусные десерты: шоколадное фондю с фруктами;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tea or coffee (to choose from);
+                        Чай или кофе (на выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Surprise from "Private Cafe": a bottle of "Mondoro" champagne or wine (to choose
-                        from);
+                        Сюрприз от "Private Cafe": бутылка шампанского "Mondoro" или вина (на ваш
+                         выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Duration: 3 hours;
+                        Продолжительность: 3 часа;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Preselection of your favorite film or music;
+                        Предварительный выбор любимого фильма или музыки;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        A gift from "Private Cafe" - "River Cruise on the River"
+                        Подарок от "Private Cafe" - "Речной круиз по реке"
                       </p>
                       <button className="button main_button fourth_button" onClick={() => setDateThird(true)}>
-                        Book room
+                        Забронировать сейчас
                       </button>
                     </div>
                   </div>
@@ -338,7 +338,7 @@ const HomePage = () => {
                         borderTop: '2px solid #e5097f',
                       }}
                     />
-                    <p>3 options for turnkey celebrations</p>
+                    <p>3 варианта проведения торжеств "под ключ"</p>
                   </div>
                 </div>
               </div>
@@ -363,9 +363,9 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          Fits for one event for a maximum of 10 people.
+                          Подходит для одного мероприятия максимум для 10 человек.
                           <br />
-                          Time - 3 hours
+                          Продолжительность - 3 часа
                           <br />
                           (Big hall).
                         </big>
@@ -377,21 +377,21 @@ const HomePage = () => {
                       This is also available:
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Watch music videos and movies;
+                        Смотрите музыкальные клипы и фильмы;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Board games (large selection);
+                        Настольные игры (большой выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        1 good for all tastes; Tea / coffee for guests
+                        Торт на любой вкус; чай / кофе для гостей
                       </p>
                       <br />
                       <button
                         className="button main_button fourth_button"
                         onClick={() => setPartyFirst(true)}
                       >
-                        Book room
+                        Забронировать комнату
                       </button>
                     </div>
                   </div>
@@ -414,9 +414,9 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          Fits for one event for a maximum of 15 people.
+                          Подходит для одного мероприятия, рассчитанного максимум на 15 человек.
                           <br />
-                          Time - 3 hours
+                          Продолжительность - 3 часа
                           <br />
                           (Big hall).
                         </big>
@@ -428,24 +428,24 @@ const HomePage = () => {
                       This is also available:
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Watch music videos and movies;
+                        Смотрите музыкальные клипы и фильмы;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Board games (large selection);
+                        Настольные игры (большой выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        2 good ones for all tastes; Tea / coffee for guests
+                        2 торта на любой вкус; Чай / кофе для гостей
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Snacks (chips / popcorn in the assortment) and unlimited cola;
+                        Закуски (чипсы/попкорн в ассортименте) и неограниченное количество колы;
                       </p>
                       <br />
                       <button
                         className="button main_button fourth_button"
                         onClick={() => setPartySecond(true)}
                       >
-                        Book room
+                        Забронировать комнату
                       </button>
                     </div>
                   </div>
@@ -468,34 +468,34 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          Number of guests - up to 50 people.
+                          Количество гостей - до 50 человек.
                           <br />
                           Time - 3 hours
                           <br />
-                          (KC ground floor - 2 rooms and a hall).
+                          (KC первый этаж - 2 комнаты и холл).
                         </big>
                       </p>
                       <big></big>
                       <p />
                     </div>
                     <div className="plan-inside">
-                      That is also available:
+                      В данном пакете:
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Watch music videos and movies;
+                        Смотрите музыкальные клипы и фильмы;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Board games (large selection);
+                        Настольные игры (большой выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tea / coffee for guests;
+                        Чай / кофе для гостей;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Snacks (chips / popcorn in the assortment) and unlimited cola;
+                        Закуски (чипсы/попкорн в ассортименте) и неограниченное количество колы;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Decoration balls (15 pcs.);
+                       Декоративные шарики (15 шт.);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Birthday cake;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Fotoshooting;</p>
@@ -504,7 +504,7 @@ const HomePage = () => {
                         className="button main_button fourth_button"
                         onClick={() => setPartyThird(true)}
                       >
-                        Book room
+                        Забронировать комнату
                       </button>
                     </div>
                   </div>
@@ -523,7 +523,7 @@ const HomePage = () => {
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix" style={{}}>
                     <center>
-                      <h2>Feedback from our visitors</h2>
+                      <h2>Отзывы наших посетителей</h2>
                     </center>
                   </div>
                 </div>
@@ -543,12 +543,12 @@ const HomePage = () => {
                       />
                     </div>
                     <div className="desc_wrapper">
-                      <h4 className="title">Anna Bran</h4>
+                      <h4 className="title">Анна Грудинская</h4>
                       <div className="desc">
-                        We met at the Private Cafe yesterday to see a movie that we were made it ourselves.We
-                        are very happy with it! We were 11, gathered in the 9th The screen is bright, the
-                        sound is good. Now I see no better place was to be found for this meeting. We'll be
-                        back for sure! Today we visit that Private cafe with a big company :)
+                        Вчера мы встретились в Private Cafe, чтобы посмотреть фильм, который мы сняли сами. Мы
+                        остались очень довольны! Нас было 11 человек, собрались в 9-м зале. Экран яркий,
+                        звук хороший. Сейчас я понимаю, что лучшего места для этой встречи было не найти. Мы
+                        обязательно вернемся! Сегодня мы посетим Private Cafe с большой компанией :)
                         <br />
                         <br />
                       </div>
@@ -567,13 +567,13 @@ const HomePage = () => {
                       />
                     </div>
                     <div className="desc_wrapper">
-                      <h4 className="title">Ben Henderson</h4>
+                      <h4 className="title">Дмитрий Виногоров</h4>
                       <div className="desc">
-                        We visited here once with a girl. If you are looking for a cozy place looking to
-                        quietly sit on comfortable chairs / sofas to watch your favorite films and yours
-                        Favorite cocktail drink, you've come to the right place. We slept well too. The only
-                        downside is that prepayment can be made from a card will. Refunds expire within 24
-                        hours of a face-to-face visit.
+                       Недавно мы с девушкой были тут. Если вы ищете уютное место, где можно
+                        спокойно посидеть на удобных креслах/диванах за просмотром любимых фильмов и вашим
+			любимым коктейлем, вы пришли в нужное место. Нам всё понравилось. Единственный
+                        минус в том, что предоплату можно внести с карты. Возврат средств осуществляется в течение 24
+                        часов после личного визита.
                         <br />
                         <br />
                       </div>
@@ -596,12 +596,12 @@ const HomePage = () => {
                       />
                     </div>
                     <div className="desc_wrapper">
-                      <h4 className="title">Ella Almer</h4>
+                      <h4 className="title">Надежда Михеева</h4>
                       <div className="desc">
-                        I celebrated my birthday and was very happy.!) The equipment worked smoothly, the hall
-                        was clean and comfortable. The cost corresponds to the quality. Thank you Margaret for
-                        everything! ) My only wish is to choose from Drinks at an affordable price to enlarge)
-                        Happy New Years!
+                        Я отпраздновала свой день рождения и осталась очень довольна)! Оборудование работало бесперебойно, зал
+                        был чистым и комфортным. Стоимость соответствует качеству. Спасибо Маргарите за
+                        все! ) Единственное пожелание - выбор напитков по доступной цене увеличить)
+                        С Новым Годом!
                         <br />
                         <br />
                       </div>
@@ -620,16 +620,16 @@ const HomePage = () => {
                       />
                     </div>
                     <div className="desc_wrapper">
-                      <h4 className="title">John Carmey</h4>
+                      <h4 className="title">Сергей Анатольев</h4>
                       <div className="desc">
-                        Hello, my name is John and we went to Private Cafe together with one Girl. We wanted
-                        to leave a comment on this place! We became very nice received and brought to our
-                        room. This is very cozy. Lots of pillows and a blanket, a very soft and comfortable
-                        sofa, a nice carpet are available. The place is convenient for movie viewing. Nice
-                        picture from the projector, the good sounding perfectly transmit the whole action.
-                        Indeed there are many interesting ones pleasant moments that leave no one indifferent.
-                        Thank you to all people who work in this place, you do a great job, we come more than
-                        once back to you!
+                        Здравствуйте, меня зовут Сергей, и мы пошли в Private Cafe вместе с  девушкой. Мы хотели
+                        оставить отзыв об этом месте! Нас очень хорошо встретили и проводили в нашу
+                        комнату. Здесь очень уютно. Много подушек и одеял, очень мягкий и удобный
+                        диван, хороший ковер. Место удобно для просмотра фильмов. Хорошая
+                        картинка от проектора, хороший звук прекрасно передают все действие.
+                        Действительно много интересных приятных моментов, которые никого не оставляют равнодушным.
+                        Спасибо всем людям, которые работают в этом месте, вы отлично справляетесь со своей работой, мы не раз приходили и
+                        еще не раз вернемся к вам!
                         <br />
                         <br />
                       </div>
@@ -653,16 +653,16 @@ const HomePage = () => {
                     <h2>How do we get there?</h2>
                     <div className="footer-impressum" style={{ marginTop: '40px' }}>
                       <p>
-                        Contact <br />
+                        Контакты <br />
                         <br />
-                        You can get support for using Private Cafe via this link and via the "Chat" button at
-                        the bottom right.
+                        Вы можете получить поддержку по использованию Private Cafe по этой ссылке и через кнопку "Чат" в
+                        внизу справа.
                         <br />
-                        <br /> We take legal and regulatory inquiries by post, by fax on +44 020 577-5506
-                        <br /> by phone at +44 020 577-5506. Our general e-mail address is
-                        contact@privatescafe.com, we are also about the o. a. Call number reachable. For If
-                        you have any questions about support for the use of Privates Cafe, please use the
-                        above. Left or the button "Chat".
+                        <br /> Мы принимаем юридические и нормативные запросы по почте, по факсу +44 020 577-5506
+                        <br /> по телефону +44 020 577-5506. Наш общий адрес электронной почты
+                      contact@privatescafe.com. Если
+                      у Вас есть вопросы по использованию сайта, то ,пожалуйста, используйте указанную выше информацию или 
+                      обратитесь в онлайн-чат и получите ответ от специалиста.
                       </p>
                     </div>
                     <div className="main_seven-flex">
@@ -676,10 +676,10 @@ const HomePage = () => {
                           </p>
                           <ul>
                             <li>
-                              <span>Mo-Th</span> 12:00 - 00:00
+                              <span>Пн-Чт</span> 12:00 - 00:00
                             </li>
                             <li>
-                              <span>Fr-Su</span> 12:00 - 06:00
+                              <span>Пт-Вс</span> 12:00 - 06:00
                             </li>
                             <li>
                               <span>Adress: </span>

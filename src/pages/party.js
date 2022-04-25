@@ -52,18 +52,18 @@ export const PartyPage = () => {
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
                       <h1 className="main_header" style={{ paddingTop: '180px', minHeight: '50px' }}>
-                        Rental of a cinema for groups of people
+                        Аренда кинотеатра для компании
                       </h1>
                       <p style={{ fontWeight: 700 }}>Movies, karaoke, games just for you and your friends</p>
                       <p style={{ fontWeight: 700 }}>
-                        They think about where to celebrate your birthday, throw a company party or Having fun
-                        with friends? Rent a cinema! Stand available 12 halls for groups of up to 10 people
-                        and large groups of up to 50 guests.
+                        Думаете, где отметить день рождения, устроить корпоративную вечеринку или повеселиться
+                        с друзьями? Арендуйте кинотеатр! В наличии 12 залов для групп до 10 человек
+                        и больших групп до 50 гостей.
                         <br />
-                        There are no restrictions in the cinema house: watch films at full volume without Sing
-                        embarrassment, dance or play with light music. Good sound insulation allows you to
-                        scream from your heart and the air conditioner provides one comfortable temperature
-                        for the active party.
+                        В кинозале нет никаких ограничений: смотрите фильмы на полной громкости, не стесняясь пойте,
+                        танцуйте или играйте под легкую музыку. Хорошая звукоизоляция позволяет вам
+                        кричать от души, а кондиционер обеспечивает одну комфортную температуру
+                        для активной вечеринки.
                       </p>
                       <br />
                       <br />
@@ -83,31 +83,31 @@ export const PartyPage = () => {
                   <div className="column mcb-column one-second column_column  column-margin-">
                     <div className="column_attr clearfix align_left" style={{}}>
                       <h4 style={{ marginBottom: '15px' }}>
-                        What would you like to have,
+                        Что бы вы хотели получить,
                         <br />
-                        when you visit our Private Cafe?
+                        посетив Private Cafe?
                       </h4>
                       <ul style={{ color: '#ffffff', fontSize: '18px', lineHeight: '18px', fontWeight: 700 }}>
-                        <li>The hall is only for your group</li>
-                        <li>Restaurant cuisine and designer drinks</li>
-                        <li>Ability to sing karaoke without being shy</li>
-                        <li>A wide range of films to suit all tastes</li>
-                        <li>And finally, an atmosphere of fun and celebration</li>
+                        <li>Зал предназначен только для вашей группы</li>
+                        <li>Ресторанная кухня и авторские напитки</li>
+                        <li>Возможность петь караоке без стеснения</li>
+                        <li>Широкий выбор фильмов на любой вкус</li>
+                        <li>И, наконец, атмосфера веселья и праздника</li>
                       </ul>
                     </div>
                   </div>
                   <div className="column mcb-column one-second column_column  column-margin-">
                     <div className="column_attr clearfix align_right" style={{}}>
                       <h3 style={{ marginBottom: '15px' }}>
-                        Celebrate the most unusual
+                        Нехабываемое торжество
                         <br />
                         <span style={{ color: '#e5097f' }}>Party</span>
                       </h3>
                       <div className="main_fourth-button-wrap">
                         <p>
-                          We guarantee
+                          Мы гарантируем
                           <br />
-                          Your privacy
+                          Вашу конфиденциальность
                         </p>
                       </div>
                     </div>
@@ -136,9 +136,9 @@ export const PartyPage = () => {
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
                       <h2>
-                        Rental of a cinema hall:
+                        Аренда кинозала:
                         <br />
-                        Holiday according to your own script
+                        Праздник по собственному сценарию
                       </h2>
                       <hr
                         style={{
@@ -168,7 +168,7 @@ export const PartyPage = () => {
                       </div>
                       <div className="desc_wrapper">
                         <h6 className="title">
-                          In the cinema house, it is convenient to plan a meeting of a large company.
+                          В кинотеатре удобно планировать встречу большой компании.
                         </h6>
                       </div>
                     </div>
@@ -186,8 +186,8 @@ export const PartyPage = () => {
                       </div>
                       <div className="desc_wrapper">
                         <h6 className="title">
-                          Each room is decorated according to a unique style. You can do it yourself decorate
-                          with balloons, signs or with our help.
+                          Каждая комната оформлена в соответствии с уникальным стилем. Вы можете сделать это самостоятельно, украсив
+                          воздушными шарами, вывесками или с нашей помощью.
                         </h6>
                       </div>
                     </div>
@@ -205,8 +205,8 @@ export const PartyPage = () => {
                       </div>
                       <div className="desc_wrapper">
                         <h6 className="title">
-                          There is karaoke and a few microphones in all the large halls. There are thousands
-                          of Songs in the files. You can also bring your playlist with you.
+                          Во всех больших залах есть караоке и несколько микрофонов. Есть тысячи
+                          песен на компьютере. Вы также можете принести свой плейлист с собой.
                         </h6>
                       </div>
                     </div>
@@ -224,8 +224,8 @@ export const PartyPage = () => {
                       </div>
                       <div className="desc_wrapper">
                         <h6 className="title">
-                          It is not illegal to bring your own food or drinks. On their We can request delivery
-                          from nearby restaurants and cafes arrange.
+                          Приносить свою еду или напитки не запрещено. Кроме того, мы можем запросить доставку
+                          из близлежащих ресторанов и кафе.
                         </h6>
                       </div>
                     </div>
@@ -243,8 +243,8 @@ export const PartyPage = () => {
                       </div>
                       <div className="desc_wrapper">
                         <h6 className="title">
-                          If you celebrate your birthday in a cinema, you will receive a rental discount in
-                          Amount of your age. 30 year old birthday boy, for example 30% discount.
+                          Если вы отмечаете свой день рождения в кинотеатре, вы получите скидку на прокат в
+                          размере вашего возраста. Имениннику 30 лет, например, скидка 30%.
                         </h6>
                       </div>
                     </div>
@@ -263,9 +263,9 @@ export const PartyPage = () => {
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
                       <h2 style={{ marginTop: '50px' }}>
-                        Complete entertainment package is available,
+                        Предлагается полный пакет развлечений,
                         <br />
-                        when you rent a cinema
+                        при аренде кинотеатра
                       </h2>
                       <hr
                         style={{
@@ -300,9 +300,9 @@ export const PartyPage = () => {
                       <h2 style={{ color: '#e60280', marginTop: '50px' }}>Watching a movie</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
-                        How do I choose the cinema and the cinema room? Nobody makes a noise in the private
-                        cafe nobody bothers and chews. Pick a movie from a multi-billion file and enjoy the
-                        one on the sofa!{' '}
+                        Как выбрать кинотеатр и кинозал? Никто не шумит в частном
+                        кафе никто не беспокоит и не жует. Выбери фильм из многомиллиардного архива и наслаждайся просмотром
+                        на диване!{' '}
                       </p>
                     </div>
                   </div>
@@ -331,9 +331,9 @@ export const PartyPage = () => {
                       <h2 style={{ color: '#e60280', marginTop: '50px' }}> Sing karaoke</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
-                        Now you can have your own karaoke room! No queues, thousands of Songs on professional
-                        equipment. Private Cafe is a cheap karaoke. Counting You for the number of people, not
-                        the songs, and sing for as long as you do want!{' '}
+                        Теперь у вас есть свой собственный караоке-зал! Никаких очередей, тысячи песен на профессиональном
+                        оборудовании. Private Cafe - это дешевое караоке. Рассчитывайте на количество людей, а не на
+                        песни, и пойте столько, сколько захотите!{' '}
                       </p>
                     </div>
                   </div>
@@ -362,10 +362,10 @@ export const PartyPage = () => {
                       <h2 style={{ color: '#e60280', marginTop: '50px' }}>Essen</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
-                        A special feature of renting a hall in the Private Cafe - It is possible Bring food
-                        and drinks for free. Also you can always have drinks and Order water pipes in our bar
-                        and food from our partners. The waiter brings everything to you directly in the hall
-                        in 15-20 minutes.
+                        Особенность аренды зала в Private Cafe - можно приносить еду
+                        и напитки бесплатно. Также в нашем баре вы всегда можете заказать напитки, воду
+                        и еду от наших партнеров. Официант принесет все вам прямо в зал
+                        в течение 15-20 минут.
                       </p>
                     </div>
                   </div>
@@ -394,9 +394,9 @@ export const PartyPage = () => {
                       <h2 style={{ color: '#e60280', marginTop: '50px' }}>Playing video games</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
-                        Play bestsellers with Sony Playstation. Become a FIFA Champion. Now you have to no
-                        longer worry about your guests getting bored. You ask yourself, "How it's cool to have
-                        a birthday party so your friends won't bored? "You know the answer =)
+                        Играйте в бестселлеры с Sony Playstation. Станьте чемпионом FIFA. Теперь вам больше не нужно
+                        больше не беспокоиться о том, что вашим гостям будет скучно. Вы спрашиваете себя: "Как круто провести
+                        день рождения, чтобы друзья не скучали? " Вы знаете ответ =)
                       </p>
                     </div>
                   </div>
@@ -425,9 +425,9 @@ export const PartyPage = () => {
                       <h2 style={{ color: '#e60280', marginTop: '50px' }}>To play board game</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
-                        Singing, dancing, playing video games, but not everyone had enough variety? then it's
-                        time for some board games! We have the Mafia, Alias and many others for every taste
-                        and for large groups of friends.{' '}
+                        Поете, танцуете, играете в видеоигры, но не всем хватает разнообразия? тогда самое время
+                        время для настольных игр! У нас есть "Мафия", "Алиас" и многие другие на любой вкус
+                        и для больших компаний друзей.{' '}
                       </p>
                     </div>
                   </div>
@@ -489,9 +489,9 @@ export const PartyPage = () => {
                         </p>
                         <p style={{ color: '#ffffff' }}>
                           <big>
-                            Designed for a company with up to 10 people.
+                            Предназначен для компании численностью до 10 человек.
                             <br />
-                            During - 3 hours
+                            Продолжительность - 3 часа
                             <br />
                             (Big hall).
                           </big>
@@ -503,21 +503,21 @@ export const PartyPage = () => {
                         That would also:
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Watch music videos and movies;
+                          Смотреть музыкальные клипы и фильмы;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Board games (large selection);
+                          Настольные игры (большой выбор);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          1 good for all tastes; Tea / coffee for guests
+                          Торт на любой вкус; чай / кофе для гостей
                         </p>
                         <br />
                         <button
                           className="button main_button fourth_button"
                           onClick={() => setPartyFirst(true)}
                         >
-                          Book room
+                          Забронировать комнату
                         </button>
                       </div>
                     </div>
@@ -540,9 +540,9 @@ export const PartyPage = () => {
                         </p>
                         <p style={{ color: '#ffffff' }}>
                           <big>
-                            Designed for a company with up to 15 people.
+                            Предназначен для компании численностью до 15 человек.
                             <br />
-                            During - 3 hours
+                            Продолжительность - 3 часа
                             <br />
                             (Big hall).
                           </big>
@@ -551,27 +551,27 @@ export const PartyPage = () => {
                         <p />
                       </div>
                       <div className="plan-inside">
-                        That would also:
+                        Вы получите:
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Watch music videos and films;
+                          Смотреть музыкальные клипы и фильмы;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Board games (large selection);
+                          Настольные игры (большой выбор);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          2 good ones for all tastes; Tea / coffee for guests
+                          2 торта на любой вкус; Чай / кофе для гостей
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Snacks (chips / popcorn in assortment) and unlimited cola;
+                          Закуски (чипсы / попкорн в ассортименте) и неограниченное количество колы;
                         </p>
                         <br />
                         <button
                           className="button main_button fourth_button"
                           onClick={() => setPartySecond(true)}
                         >
-                          Book room
+                          Забронировать комнату
                         </button>
                       </div>
                     </div>
@@ -594,34 +594,34 @@ export const PartyPage = () => {
                         </p>
                         <p style={{ color: '#ffffff' }}>
                           <big>
-                            Number of guests - up to 50 people.
+                            Количество гостей - до 50 человек.
                             <br />
-                            During - 3 hours
+                            Продолжительность - 3 часа
                             <br />
-                            (KC ground floor - 2 rooms and living area).
+                            (KC первый этаж - 2 комнаты и гостиная зона).
                           </big>
                         </p>
                         <big></big>
                         <p />
                       </div>
                       <div className="plan-inside">
-                        That would also:
+                        Вы получите:
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Karaoke;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Watch music videos and films;
+                          Смотрите музыкальные клипы и фильмы;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>PlayStation;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Board games (large selection);
+                          Настольные игры (большой выбор);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Tea / coffee for guests;
+                          Чай / кофе для гостей;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Snacks (chips / popcorn in assortment) and unlimited cola;
+                          Закуски (чипсы / попкорн в ассортименте) и неограниченное количество колы;
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                          Decoration balls (15 pcs.);
+                          Шары для украшения (15 шт.);
                         </p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>birthday cake;</p>
                         <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>Fotoshooting;</p>
@@ -630,7 +630,7 @@ export const PartyPage = () => {
                           className="button main_button fourth_button"
                           onClick={() => setPartyThird(true)}
                         >
-                          Book room
+                          Забронировать комнату
                         </button>
                       </div>
                     </div>
@@ -662,16 +662,16 @@ export const PartyPage = () => {
                       <h2>How do we get there?</h2>
                       <div className="footer-impressum" style={{ marginTop: '40px' }}>
                         <p>
-                          Contact <br />
+                          Контакты <br />
                           <br />
-                          You can get support for using Private Cafe via this link and via the "Chat" button
-                          at the bottom right.
+                          Вы можете получить поддержку по использованию Private Cafe по этой ссылке и через кнопку "Чат" в
+                        внизу справа.
                           <br />
-                          <br /> We take legal and regulatory inquiries by post, by fax on +44 020 577-5506
-                          <br /> by phone at +44 020 577-5506. Our general e-mail address is
-                          contact@privatescafe.com, we are also about the o. a. Call number reachable. For If
-                          you have any questions about support for the use of Privates Cafe, please use the
-                          above. Left or the button "Chat".
+                          <br /> Мы принимаем юридические и нормативные запросы по почте, по факсу +44 020 577-5506
+                          <br /> по телефону +44 020 577-5506. Наш общий адрес электронной почты
+                      contact@privatescafe.com. Если
+                      у Вас есть вопросы по использованию сайта, то ,пожалуйста, используйте указанную выше информацию или 
+                      обратитесь в онлайн-чат и получите ответ от специалиста.
                         </p>
                       </div>
                       <div className="main_seven-flex">
@@ -685,10 +685,10 @@ export const PartyPage = () => {
                             </p>
                             <ul>
                               <li>
-                                <span>Mo-Th</span> 12:00-00:00
+                                <span>Пн-Чт</span> 12:00-00:00
                               </li>
                               <li>
-                                <span>Fr - Su</span> 12:00-06:00
+                                <span>Пт-Вс</span> 12:00-06:00
                               </li>
                               <li>
                                 <span>Adress: </span>

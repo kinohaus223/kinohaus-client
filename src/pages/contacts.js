@@ -52,16 +52,15 @@ export const ContactsPage = () => (
                     />
                     <div className="footer-impressum" style={{ marginTop: '40px' }}>
                       <p>
-                        Contact <br />
+                        Контакты <br />
                         <br />
-                        You can get support for using Private Cafe via this link and via the "Chat" button at
-                        the bottom right.
+                        Вы можете получить поддержку в использовании сайта, нажав кнопку "Чат" в правом нижнем углу страницы.
                         <br />
-                        <br /> We take legal and regulatory inquiries by post, by fax on +44 020 577-5506
-                        <br /> by phone at +44 020 577-5506. Our general e-mail address is
-                        contact@privatescafe.com, we are also about the o. a. Call number reachable. For If
-                        you have any questions about support for the use of Privates Cafe, please use the
-                        above. Left or the button "Chat".
+                        <br /> Мы принимаем юридические и нормативные запросы по почте, по факсу +44 020 577-5506
+                        <br /> по телефону +44 020 577-5506. Наш общий адрес электронной почты
+                        contact@privatescafe.com. Если
+                        у Вас есть вопросы по использованию сайта, то ,пожалуйста, используйте указанную выше информацию или  
+                        обратитесь в онлайн-чат и получите ответ от специалиста.
                       </p>
                     </div>
                     <div className="main_seven-flex">
@@ -75,10 +74,10 @@ export const ContactsPage = () => (
                           </p>
                           <ul>
                             <li>
-                              <span>Mo-Th</span> 12:00-00:00
+                              <span>Пн-Чт</span> 12:00-00:00
                             </li>
                             <li>
-                              <span>Fr-Su</span> 12:00-06:00
+                              <span>Пт-Вс</span> 12:00-06:00
                             </li>
                             <li>
                               <span>Adress: </span>

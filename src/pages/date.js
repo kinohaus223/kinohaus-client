@@ -62,16 +62,16 @@ const HomePage = () => {
                     <br />
                     <br />
                     <h1 style={{ marginTop: '15px' }}>Date</h1>
-                    <p>Pick an unusual date in a private cafe with sofas and a big screen</p>
+                    <p>Выбери вариант незабываемого свидания в уютной комнате с большим экраном</p>
 
                     <br />
                     <strong>
-                      Book a room with sofas for two people - prepare the room for a private hour
+                      Забронируй уютную комнату для потрясающего свидания
                     </strong>
                     <br />
                     <br />
                     <button className="button main_button fourth_button" onClick={() => setDateFirst(true)}>
-                      Book room
+                      Забронировать комнату
                     </button>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ const HomePage = () => {
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix" style={{}}>
                     <p className="main-form_header" style={{ textAlign: 'left' }}>
-                      Spend the evening with your loved one in a pleasant and comfortable atmosphere
+                      Проведите вечер с любимым человеком в приятной и комфортной атмосфере
                     </p>
                   </div>
                 </div>
@@ -135,7 +135,7 @@ const HomePage = () => {
               <div className="mcb-wrap-inner">
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix align_center" style={{}}>
-                    <h2>Private cafe for couples: solutions for a perfect date</h2>
+                    <h2>Private cafe для пар: решения для идеального свидания</h2>
                     <hr
                       style={{
                         width: '100px',
@@ -145,7 +145,7 @@ const HomePage = () => {
                         borderTop: '2px solid #e5097f',
                       }}
                     />
-                    <p>We have 3 perfect solutions for you:</p>
+                    <p>У нас есть 3 идеальных решения для Вас:</p>
                   </div>
                 </div>
               </div>
@@ -171,9 +171,9 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          At the order
+                          При заказе
                           <br />
-                          "Surprise" you will receive:
+                          "Сюрприз" вы получите:
                         </big>
                       </p>
                       <big></big>
@@ -181,25 +181,25 @@ const HomePage = () => {
                     </div>
                     <div className="plan-inside">
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Romantic decoration of the hall with rose petals and candles;
+                        Романтическое оформление зала лепестками роз и свечами;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Preselection of favorite film or music;
+                        Предварительный выбор любимого фильма или музыки;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dinner for couple (Italian, Japanese, Chinese cuisine, to choose from);
+                        Ужин на двоих (итальянская, японская, китайская кухня на выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Delicious desserts: chocolate fondue with fruits;
+                        Вкусные десерты: шоколадное фондю с фруктами;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tea or coffee (to choose from);
+                        Чай или кофе (на выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Duration: 3 hours.
+                        Продолжительность: 3 часа.
                       </p>
                       <button className="button main_button fourth_button" onClick={() => setDateFirst(true)}>
-                        Book room
+                        Забронировать комнату
                       </button>
                     </div>
                   </div>
@@ -223,9 +223,9 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          At the order
+                          При заказе
                           <br />
-                          "Love evening" you receive:
+                          "Вечер любви" вы получаете:
                         </big>
                       </p>
                       <big></big>
@@ -233,31 +233,31 @@ const HomePage = () => {
                     </div>
                     <div className="plan-inside">
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Romantic decoration of the hall with rose petals and candles;
+                        Романтическое оформление зала лепестками роз и свечами;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Preselection of favorite film or music;
+                        Предварительный выбор любимого фильма или музыки;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dinner for couple (Italian, Japanese, Chinese cuisine, to choose from);
+                        Ужин на двоих (итальянская, японская, китайская кухня на выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Delicious desserts: chocolate fondue with fruits;
+                        Вкусные десерты: шоколадное фондю с фруктами;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tea or coffee (to choose from);
+                        Чай или кофе (на выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Surprise from "Private Cafe": a bottle of champagne
+                        Сюрприз от "Private Cafe": бутылка шампанского
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Duration: 3 hours.
+                        Продолжительность: 3 часа.
                       </p>
                       <button
                         className="button main_button fourth_button"
                         onClick={() => setDateSecond(true)}
                       >
-                        Book room
+                        Забронировать комнату
                       </button>
                     </div>
                   </div>
@@ -281,9 +281,9 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          At the order
+                          При заказе
                           <br />
-                          "Date in the stars" you will receive:
+                          "Свидание на звездах" вы получите:
                         </big>
                       </p>
                       <big></big>
@@ -291,36 +291,36 @@ const HomePage = () => {
                     </div>
                     <div className="plan-inside">
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Megaromantic decoration of the great hall with rose petals, candles, balls (20 pcs.)
+                        Мегаромантическое украшение большого зала лепестками роз, свечами, шарами (20 шт.)
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Dinner for couple (Italian, Japanese, Chinese cuisine, to choose from);
+                       Ужин на двоих (итальянская, японская, китайская кухня на выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px' }}>Fotoshooting am Ende des Datums;</p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Bouquet of flowers for the woman / favorite dish for the man;
+                        Букет цветов для женщины / любимое блюдо для мужчины;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Delicious desserts: chocolate fondue with fruits;
+                        Вкусные десерты: шоколадное фондю с фруктами;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Tea or coffee (to choose from);
+                        Чай или кофе (на выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Surprise from "Private Cafe": a bottle of "Mondoro" champagne or wine (to choose
-                        from);
+                        Сюрприз от "Private Cafe": бутылка шампанского "Mondoro" или вина (на ваш 
+                        выбор);
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Duration: 4 hours;
+                        Продолжительность: 4 часа;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        Preselection of your favorite film or music;
+                        Предварительный выбор любимого фильма или музыки;
                       </p>
                       <p style={{ fontSize: '12px', lineHeight: '20px', margin: '2px' }}>
-                        A gift from "Private Cafe" - "River Cruise on the River"
+                        Подарок от "Private Cafe" - "Речной круиз по реке"
                       </p>
                       <button className="button main_button fourth_button" onClick={() => setDateThird(true)}>
-                        Book room
+                        Забронировать комнату
                       </button>
                     </div>
                   </div>
@@ -341,16 +341,15 @@ const HomePage = () => {
                   <div className="column_attr clearfix" style={{}}>
                     <h2>How do we get there?</h2>
                     <div className="footer-impressum" style={{ marginTop: '40px' }}>
-                      Contact <br />
+                      Контакты <br />
                       <br />
-                      You can get support for using Private Cafe via this link and via the "Chat" button at
-                      the bottom right.
+                      Вы можете получить поддержку в использовании сайта, нажав кнопку "Чат" в правом нижнем углу страницы.
                       <br />
-                      <br /> We take legal and regulatory inquiries by post, by fax on +44 020 577-5506
-                      <br /> by phone at +44 020 577-5506. Our general e-mail address is
-                      contact@privatescafe.com, we are also about the o. a. Call number reachable. For If you
-                      have any questions about support for the use of Privates Cafe, please use the above.
-                      Left or the button "Chat".
+                      <br /> Мы принимаем юридические и нормативные запросы по почте, по факсу +44 020 577-5506
+                      <br /> по телефону +44 020 577-5506. Наш общий адрес электронной почты
+                      contact@privatescafe.com. Если
+                      у Вас есть вопросы по использованию сайта, то ,пожалуйста, используйте указанную выше информацию или 
+                      обратитесь в онлайн-чат и получите ответ от специалиста.
                     </div>
                     <div className="main_seven-flex">
                       <div className="main_seven-item adress_item">
@@ -363,10 +362,10 @@ const HomePage = () => {
                           </p>
                           <ul>
                             <li>
-                              <span>Mo-Th</span> 12:00-00:00
+                              <span>Пн-Чт</span> 12:00-00:00
                             </li>
                             <li>
-                              <span>Fr - Su</span> 12:00-06:00
+                              <span>Пт-Вс</span> 12:00-06:00
                             </li>
                             <li>
                               <span>Adress: </span>
@@ -411,22 +410,22 @@ const HomePage = () => {
               <div className="mcb-wrap-inner">
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix" style={{}}>
-                    <p>Want to go on a date with a great girl? Then you are right here! </p>
+                    <p>Хотите пойти на свидание с замечательной девушкой? Тогда вам точно сюда! </p>
                     <p>
-                      Here you can have an interesting, unforgettable date alone with your Have soul mate. We
-                      guarantee you full confidentiality, because in our There are no cameras at home -
-                      everything is done for your convenience and comfort
+                      Здесь вы можете провести интересное, незабываемое свидание наедине со своей второй половинкой. Мы
+                      гарантируем вам полную конфиденциальность, потому что в нашем заведении нет камер -
+                      все сделано для вашего удобства и комфорта
                     </p>
                     <p>
-                      If you are thinking of dating a girl, think of our place as preferred. We have 11
-                      comfortable rooms with different interiors. A Subdued light creates a special atmosphere
-                      that is great fun.{' '}
+                      Если вы думаете о том, как впечатлить девушку, то вы нашли нужное место. У нас есть 11
+                      комфортабельных комнат с разными интерьерами. Приглушенный свет создает особую атмосферу
+                      которая доставляет огромное удовольствие.{' '}
                     </p>
                     <p>
-                      You no longer have to think about where and how to host a date. we help you organize
-                      this at the highest level. We have many scenarios prepared that every girl likes. We
-                      take care of all the details ourselves, and you can take off the shackles of
-                      responsibility for this evening, relax and just enjoy!
+                      Вам больше не нужно думать о том, где и как провести свидание. мы поможем вам организовать
+                      это на самом высоком уровне. У нас подготовлено множество сценариев, которые нравятся каждой девушке. Мы
+                      сами позаботимся обо всех деталях, и вы сможете снять с себя оковы
+                      ответственности за этот вечер, расслабиться и просто наслаждаться!
                     </p>
                   </div>
                 </div>
