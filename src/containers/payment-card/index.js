@@ -133,12 +133,12 @@ export const PaymentCard = ({
               onClick={() => onCardElementClick('cardHolder')}
               ref={cardHolderRef}
             >
-              <div className="card-item__holder">Card holder</div>
+              <div className="card-item__holder">Имя держателя</div>
               <div className="card-item__name">
                 <TransitionGroup component="div" className="slide-fade-up">
                   {cardHolder === '' ? (
                     <CSSTransition classNames="slide-fade-up" timeout={250}>
-                      <div>FIRST NAME LAST NAME</div>
+                      <div>ИМЯ ФАМИЛИЯ</div>
                     </CSSTransition>
                   ) : (
                     cardHolder.split('').map((val, index) => (
@@ -151,7 +151,7 @@ export const PaymentCard = ({
               </div>
             </label>
             <div className="card-item__date" onClick={() => onCardElementClick('cardDate')} ref={cardDateRef}>
-              <label className="card-item__dateTitle">Expiry Date</label>
+              <label className="card-item__dateTitle">Срок действия</label>
               <label className="card-item__dateItem">
                 <SwitchTransition in-out>
                   <CSSTransition classNames="slide-fade-up" timeout={200} key={cardMonth}>
