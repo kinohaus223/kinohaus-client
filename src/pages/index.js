@@ -15,44 +15,44 @@ const HomePage = () => {
       <PaymentPopup
         open={dateFirst}
         onClose={() => setDateFirst(false)}
-        title="Surprise"
+        title="Сюрприз"
         hours="3"
-        price="40"
+        price="5500"
       />
       <PaymentPopup
         open={dateSecond}
         onClose={() => setDateSecond(false)}
-        title="Love evening"
+        title="Любовный вечер"
         hours="3"
-        price="80"
+        price="10500"
       />
       <PaymentPopup
         open={dateThird}
         onClose={() => setDateThird(false)}
-        title="Date in the stars"
+        title="Свидание над звездами"
         hours="4"
         price="190"
       />
       <PaymentPopup
         open={partyFirst}
         onClose={() => setPartyFirst(false)}
-        title="With all friends"
+        title="С друзьями"
         hours="3"
-        price="250"
+        price="20500"
       />
       <PaymentPopup
         open={partySecond}
         onClose={() => setPartySecond(false)}
-        title="All you need"
+        title="Все что нужно"
         hours="3"
-        price="340"
+        price="25500"
       />
       <PaymentPopup
         open={partyThird}
         onClose={() => setPartyThird(false)}
-        title="Everything and immediately"
+        title="Все и сейчас"
         hours="3"
-        price="430"
+        price="30500"
       />
       <div className="sections_group">
         <div className="entry-content" itemProp="mainContentOfPage">
@@ -118,7 +118,7 @@ const HomePage = () => {
               <div className="mcb-wrap-inner">
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix align_center" style={{}}>
-                    <h2>Our rooms</h2>
+                    <h2>Наши комнаты</h2>
                     <hr
                       style={{
                         width: '100px',
@@ -143,8 +143,8 @@ const HomePage = () => {
                       </div>
                       <h3>Surprise</h3>
                       <div className="price">
-                        <span>40</span>
-                        <sup className="currency">£</sup>
+                        <span>5500</span>
+                        <sup className="currency">₽</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -153,9 +153,9 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          At the order
+                          При выборе
                           <br />
-                          При выборе "сюрприз":
+                          "сюрприз":
                         </big>
                       </p>
                       <big></big>
@@ -191,10 +191,10 @@ const HomePage = () => {
                         <img src="/style/img/vip-7-new.jpeg" alt="vip-7-new" width={600} height={370} />
                       </div>
                       <h2></h2>
-                      <h3>Love evening</h3>
+                      <h3>Любовный вечер</h3>
                       <div className="price">
-                        <span>80</span>
-                        <sup className="currency">£</sup>
+                        <span>10500</span>
+                        <sup className="currency">₽</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -203,7 +203,7 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          At the order
+                          При выборе
                           <br />
                           "Вечер любви" вы получаете:
                         </big>
@@ -237,7 +237,7 @@ const HomePage = () => {
                         className="button main_button fourth_button"
                         onClick={() => setDateSecond(true)}
                       >
-                        Book room
+                        Забронировать сейчас
                       </button>
                     </div>
                   </div>
@@ -249,10 +249,10 @@ const HomePage = () => {
                         <img src="/style/img/vip-15-new.jpeg" alt="vip-15-new" width={600} height={370} />
                       </div>
                       <h2></h2>
-                      <h3>Date in the Stars</h3>
+                      <h3>Свидание над звёздами</h3>
                       <div className="price">
-                        <span>190</span>
-                        <sup className="currency">£</sup>
+                        <span>15500</span>
+                        <sup className="currency">₽</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -261,9 +261,9 @@ const HomePage = () => {
                       </p>
                       <p style={{ color: '#ffffff' }}>
                         <big>
-                          At the order
+                          При выборе
                           <br />
-                          Устройте "свидание в звездах":
+                          "Свидание над звездами":
                         </big>
                       </p>
                       <big></big>
@@ -328,7 +328,7 @@ const HomePage = () => {
               <div className="mcb-wrap-inner">
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix align_center" style={{}}>
-                    <h2>Rest solutions with the company</h2>
+                    <h2>Решения для отдыха вместе с компанией</h2>
                     <hr
                       style={{
                         width: '100px',
@@ -351,10 +351,10 @@ const HomePage = () => {
                       <div className="image">
                         <img src="/style/img/vsesloyi.jpeg" alt="vsesloyi" width={600} height={370} />
                       </div>
-                      <h2>With all friends</h2>
+                      <h2>С друзьями</h2>
                       <div className="price">
-                        <span>250</span>
-                        <sup className="currency">£</sup>
+                        <span>10500</span>
+                        <sup className="currency">₽</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -402,10 +402,10 @@ const HomePage = () => {
                       <div className="image">
                         <img src="/style/img/vsechtonado.jpeg" alt="vsechtonado" width={600} height={370} />
                       </div>
-                      <h2>All you need</h2>
+                      <h2>Все что нужно</h2>
                       <div className="price">
-                        <span>340</span>
-                        <sup className="currency">£</sup>
+                        <span>20500</span>
+                        <sup className="currency">₽</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -456,7 +456,7 @@ const HomePage = () => {
                       <div className="image">
                         <img src="/style/img/vseisrazu.jpeg" alt="vseisrazu" width={600} height={370} />
                       </div>
-                      <h2>Everything and immediately</h2>
+                      <h2>Всё и сейчас</h2>
                       <div className="price">
                         <span>430</span>
                         <sup className="currency">£</sup>
@@ -650,7 +650,7 @@ const HomePage = () => {
               <div className="mcb-wrap-inner">
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix" style={{}}>
-                    <h2>How do we get there?</h2>
+                    <h2>Как к нам добраться?</h2>
                     <div className="footer-impressum" style={{ marginTop: '40px' }}>
                       <p>
                         Контакты <br />
