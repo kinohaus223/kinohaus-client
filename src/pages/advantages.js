@@ -72,7 +72,7 @@ export const AdvantagesPage = () => {
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
-                      <h2 style={{ marginTop: '50px' }}>Our advantages</h2>
+                      <h2 style={{ marginTop: '50px' }}>Наши преимущества</h2>
                       <hr
                         style={{
                           width: '100px',
@@ -104,7 +104,7 @@ export const AdvantagesPage = () => {
                   </div>
                   <div className="column mcb-column one-second column_column  column-margin-">
                     <div className="column_attr clearfix align_right" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Experience</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Опыт</h2>
                       <p style={{ marginTop: '10px' }}></p>
                       <ul className="difference" style={{ listStyleType: 'none' }}>
                         <li>За 7 лет работы мы узнали, что важно для наших гостей</li>
@@ -139,7 +139,7 @@ export const AdvantagesPage = () => {
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one-second column_column  column-margin-">
                     <div className="column_attr clearfix align_left" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Purity</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Чистота</h2>
                       <p style={{ marginTop: '10px' }}></p>
                       <ul className="difference" style={{ listStyleType: 'none' }}>
                         <li>После каждого гостя проводится генеральная уборка.</li>
@@ -173,7 +173,7 @@ export const AdvantagesPage = () => {
                   </div>
                   <div className="column mcb-column one-second column_column  column-margin-">
                     <div className="column_attr clearfix align_right" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Privacy</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Приватность</h2>
                       <p style={{ marginTop: '10px' }}></p>
                       <ul className="difference" style={{ listStyleType: 'none' }}>
                         <li>
@@ -203,7 +203,7 @@ export const AdvantagesPage = () => {
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one-second column_column  column-margin-">
                     <div className="column_attr clearfix align_left" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Advantage</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Преимущество</h2>
                       <p style={{ marginTop: '10px' }}></p>
                       <ul className="difference" style={{ listStyleType: 'none' }}>
                         <li>Вы можете взять с собой свои продукты и напитки бесплатно.</li>
@@ -242,7 +242,7 @@ export const AdvantagesPage = () => {
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
-                      <h2 style={{ marginTop: '50px' }}>Our team</h2>
+                      <h2 style={{ marginTop: '50px' }}>Наша команда</h2>
                       <hr
                         style={{
                           width: '100px',
@@ -266,12 +266,12 @@ export const AdvantagesPage = () => {
                           <img src="style/img/party8.jpg" alt="SAMSUNG CSC" width={300} height={450} />
                         </div>
                         <h2></h2>
-                        <h2 style={{ margin: '0 0 5px', fontSize: '30px', lineHeight: '30px' }}>Julia</h2>
+                        <h2 style={{ margin: '0 0 5px', fontSize: '30px', lineHeight: '30px' }}>Юлия</h2>
                         <p className="subtitle">
                           <big></big>
                         </p>
                         <p className="pricing-box-team plan-header-team subtitle-team">
-                          <big>Manager</big>
+                          <big>Менеджер</big>
                         </p>
                         <big></big>
                         <p />
@@ -285,12 +285,12 @@ export const AdvantagesPage = () => {
                           <img src="style/img/p9.jpg" alt="SAMSUNG CSC" width={300} height={450} />
                         </div>
                         <h2></h2>
-                        <h2 style={{ margin: '0 0 5px', fontSize: '30px', lineHeight: '30px' }}>Elizabeth</h2>
+                        <h2 style={{ margin: '0 0 5px', fontSize: '30px', lineHeight: '30px' }}>Елизавета</h2>
                         <p className="subtitle">
                           <big></big>
                         </p>
                         <p className="pricing-box-team plan-header-team subtitle-team">
-                          <big>Manager</big>
+                          <big>Официант</big>
                         </p>
                         <big></big>
                         <p />
@@ -304,12 +304,12 @@ export const AdvantagesPage = () => {
                           <img src="style/img/p10.jpg" alt="SAMSUNG CSC" width={300} height={450} />
                         </div>
                         <h2></h2>
-                        <h2 style={{ margin: '0 0 5px', fontSize: '30px', lineHeight: '30px' }}>Daniella</h2>
+                        <h2 style={{ margin: '0 0 5px', fontSize: '30px', lineHeight: '30px' }}>Диана</h2>
                         <p className="subtitle">
                           <big></big>
                         </p>
                         <p className="pricing-box-team plan-header-team subtitle-team">
-                          <big>Administrator</big>
+                          <big>Администратор</big>
                         </p>
                         <big></big>
                         <p />
@@ -340,7 +340,7 @@ export const AdvantagesPage = () => {
                 <div className="mcb-wrap-inner">
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix" style={{}}>
-                      <h2>How do we get there?</h2>
+                      <h2>Как к нам добраться?</h2>
                       <div className="footer-impressum" style={{ marginTop: '40px' }}>
                         <p>
                           Контакты <br />
