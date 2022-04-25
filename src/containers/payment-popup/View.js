@@ -38,31 +38,31 @@ export const PaymentPopupView = ({ title, hours, price, ...props }) => (
           <div className="main_text">Time</div>
           <select name="select_time" id="select_time" className="main_select" required>
             <option selected disabled hidden>
-              Take your time
+              Выберете время
             </option>
-            <option value>6:00 AM</option>
-            <option value>7:00 AM</option>
-            <option value>8:00 AM</option>
-            <option value>9:00 AM</option>
-            <option value>10:00 AM</option>
-            <option value>11:00 AM</option>
-            <option value>12:00 PM</option>
-            <option value>1:00 PM</option>
-            <option value>2:00 PM</option>
-            <option value>3:00 PM</option>
-            <option value>4:00 PM</option>
-            <option value>5:00 PM</option>
-            <option value>6:00 PM</option>
-            <option value>7:00 PM</option>
-            <option value>8:00 PM</option>
-            <option value>9:00 PM</option>
-            <option value>10:00 PM</option>
-            <option value>11:00 PM</option>
-            <option value>12:00 AM</option>
+            <option value>6:00</option>
+            <option value>7:00</option>
+            <option value>8:00</option>
+            <option value>9:00</option>
+            <option value>10:00</option>
+            <option value>11:00</option>
+            <option value>12:00</option>
+            <option value>13:00</option>
+            <option value>14:00</option>
+            <option value>15:00</option>
+            <option value>16:00</option>
+            <option value>17:00</option>
+            <option value>18:00</option>
+            <option value>19:00</option>
+            <option value>20:00</option>
+            <option value>21:00</option>
+            <option value>22:00</option>
+            <option value>23:00</option>
+            <option value>24:00</option>
           </select>
           <div className="main_text">Date of birth</div>
           <span className="main_text" style={{ fontSize: '12px' }}>
-            We need to know that you are over 18
+            Мы должны знать что вам больше 18
           </span>
           <input
             className="main_date"
@@ -75,7 +75,7 @@ export const PaymentPopupView = ({ title, hours, price, ...props }) => (
           <div className="main_text">Address</div>
           <select name="adress" id="adress" className="main_adress" required>
             <option selected disabled hidden>
-              Choose an address
+              Выберете адрес
             </option>
             <option value="">27 Woolwich Rd, London SE10 0RA</option>
             <option value="">671A Fulham Rd., London SW6 5PZ</option>
@@ -86,7 +86,7 @@ export const PaymentPopupView = ({ title, hours, price, ...props }) => (
           </select>
         </div>
         <div className="main_form_item main_form_item1">
-          <button type="submit">Book - {price} £</button>
+          <button type="submit">Book - {price} ₽</button>
         </div>
       </form>
     </div>
