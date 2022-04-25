@@ -12,23 +12,23 @@ export const PartyPage = () => {
       <PaymentPopup
         open={partyFirst}
         onClose={() => setPartyFirst(false)}
-        title="«All friends»"
+        title="«Все для друзей»"
         hours="3"
-        price="90"
+        price="5500"
       />
       <PaymentPopup
         open={partySecond}
         onClose={() => setPartySecond(false)}
-        title="«Everything and immediately»"
+        title="«Все что нужно»"
         hours="3"
-        price="340"
+        price="10500"
       />
       <PaymentPopup
         open={partyThird}
         onClose={() => setPartyThird(false)}
-        title="«Everything that needs»"
+        title="«Здесь и сейчас»"
         hours="3"
-        price="430"
+        price="15500"
       />
       <div className="sections_group">
         <div className="entry-content" itemProp="mainContentOfPage">
@@ -72,7 +72,7 @@ export const PartyPage = () => {
                         style={{ float: 'center' }}
                         onClick={() => setPartyFirst(true)}
                       >
-                        Book
+                        Забронировать сейчас
                       </button>
                     </div>
                   </div>
@@ -99,9 +99,9 @@ export const PartyPage = () => {
                   <div className="column mcb-column one-second column_column  column-margin-">
                     <div className="column_attr clearfix align_right" style={{}}>
                       <h3 style={{ marginBottom: '15px' }}>
-                        Нехабываемое торжество
+                        Незабываемое торжество
                         <br />
-                        <span style={{ color: '#e5097f' }}>Party</span>
+                        <span style={{ color: '#e5097f' }}></span>
                       </h3>
                       <div className="main_fourth-button-wrap">
                         <p>
@@ -297,7 +297,7 @@ export const PartyPage = () => {
                   </div>
                   <div className="column mcb-column one-third column_column  column-margin-">
                     <div className="column_attr clearfix align_left" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Watching a movie</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Смотрите Фильм</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
                         Как выбрать кинотеатр и кинозал? Никто не шумит в частном
@@ -328,7 +328,7 @@ export const PartyPage = () => {
                   </div>
                   <div className="column mcb-column one-third column_column  column-margin-">
                     <div className="column_attr clearfix align_right" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}> Sing karaoke</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}> Пойте караоке</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
                         Теперь у вас есть свой собственный караоке-зал! Никаких очередей, тысячи песен на профессиональном
@@ -359,7 +359,7 @@ export const PartyPage = () => {
                   </div>
                   <div className="column mcb-column one-third column_column  column-margin-">
                     <div className="column_attr clearfix align_left" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Essen</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Еда</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
                         Особенность аренды зала в Private Cafe - можно приносить еду
@@ -391,7 +391,7 @@ export const PartyPage = () => {
                   </div>
                   <div className="column mcb-column one-third column_column  column-margin-">
                     <div className="column_attr clearfix align_right" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Playing video games</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Играйте в приставку</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
                         Играйте в бестселлеры с Sony Playstation. Станьте чемпионом FIFA. Теперь вам больше не нужно
@@ -422,11 +422,11 @@ export const PartyPage = () => {
                   </div>
                   <div className="column mcb-column one-third column_column  column-margin-">
                     <div className="column_attr clearfix align_left" style={{}}>
-                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>To play board game</h2>
+                      <h2 style={{ color: '#e60280', marginTop: '50px' }}>Играйте в настольные игры</h2>
                       <p style={{ marginTop: '10px' }}>
                         {' '}
                         Поете, танцуете, играете в видеоигры, но не всем хватает разнообразия? тогда самое время
-                        время для настольных игр! У нас есть "Мафия", "Алиас" и многие другие на любой вкус
+                        время для настольных игр! У нас есть "Мафия", "Элиас" и многие другие на любой вкус
                         и для больших компаний друзей.{' '}
                       </p>
                     </div>
@@ -450,7 +450,7 @@ export const PartyPage = () => {
                   <div className="column mcb-column one column_column  column-margin-">
                     <div className="column_attr clearfix align_center" style={{}}>
                       <center>
-                        <h2>The birthday in the cafe</h2>
+                        <h2>Отметьте день рождения у нас</h2>
                       </center>
                       <hr
                         style={{
@@ -462,7 +462,7 @@ export const PartyPage = () => {
                         }}
                       />
                       <center>
-                        <p>3 options for turnkey celebrations</p>
+                        <p>3 варианта торжеств под ключ</p>
                       </center>
                       <br />
                     </div>
@@ -479,8 +479,8 @@ export const PartyPage = () => {
                         </div>
                         <h2>All friends</h2>
                         <div className="price">
-                          <span>90</span>
-                          <sup className="currency">£</sup>
+                          <span>15500</span>
+                          <sup className="currency">₽</sup>
                           <sup className="period" />
                         </div>
                         <hr className="hr_color" />
@@ -528,10 +528,10 @@ export const PartyPage = () => {
                         <div className="image">
                           <img src="style/img/vsechtonado.jpeg" alt="vsechtonado" width={600} height={370} />
                         </div>
-                        <h2>Everything that needs</h2>
+                        <h2>Все что нужно</h2>
                         <div className="price">
-                          <span>340</span>
-                          <sup className="currency">£</sup>
+                          <span>20500</span>
+                          <sup className="currency">₽</sup>
                           <sup className="period" />
                         </div>
                         <hr className="hr_color" />
@@ -582,10 +582,10 @@ export const PartyPage = () => {
                         <div className="image">
                           <img src="style/img/vseisrazu.jpeg" alt="vseisrazu" width={600} height={370} />
                         </div>
-                        <h2>Everything and immediately</h2>
+                        <h2>Всё и сразу</h2>
                         <div className="price">
-                          <span>430</span>
-                          <sup className="currency">£</sup>
+                          <span>30500</span>
+                          <sup className="currency">₽</sup>
                           <sup className="period" />
                         </div>
                         <hr className="hr_color" />
