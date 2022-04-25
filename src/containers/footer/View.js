@@ -32,17 +32,17 @@ export const FooterView = () => {
                       <ul>
                         <li className="footer-nav-link">
                           <Link href="/date">
-                            <a>For date</a>
+                            <a>Для свиданий</a>
                           </Link>
                         </li>
                         <li className="footer-nav-link">
                           <Link href="/party">
-                            <a>For company</a>
+                            <a>Для компании</a>
                           </Link>
                         </li>
                         <li className="footer-nav-link">
                           <Link href="/action">
-                            <a>Offers</a>
+                            <a>Специальные предложения</a>
                           </Link>
                         </li>
                         <li className="footer-nav-link">
@@ -52,7 +52,7 @@ export const FooterView = () => {
                         </li>
                         <li className="footer-nav-link">
                           <Link href="/contacts">
-                            <a>Contacts</a>
+                            <a>Контакты</a>
                           </Link>
                         </li>
                       </ul>
@@ -66,7 +66,7 @@ export const FooterView = () => {
                       <p className="menu-phone-time">12:00 - 00:00</p>
                     </div>
                     <button className="button footer_button" type="button" onClick={() => setDateFirst(true)}>
-                      Book hall
+                      Забронировать сейчас
                     </button>
                   </div>
                 </div>
