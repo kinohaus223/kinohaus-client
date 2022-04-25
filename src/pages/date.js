@@ -12,23 +12,23 @@ const HomePage = () => {
       <PaymentPopup
         open={dateFirst}
         onClose={() => setDateFirst(false)}
-        title="Surprise"
+        title="Сюрприз"
         hours="3"
-        price="40"
+        price="5500"
       />
       <PaymentPopup
         open={dateSecond}
         onClose={() => setDateSecond(false)}
         title="«Любовный вечер»"
         hours="3"
-        price="80"
+        price="10500"
       />
       <PaymentPopup
         open={dateThird}
         onClose={() => setDateThird(false)}
-        title="«Date in the stars»"
+        title="«Свидание над звёздами»»"
         hours="4"
-        price="190"
+        price="15500"
       />
       <div className="sections_group">
         <div
@@ -61,7 +61,7 @@ const HomePage = () => {
                     <br />
                     <br />
                     <br />
-                    <h1 style={{ marginTop: '15px' }}>Date</h1>
+                    <h1 style={{ marginTop: '15px' }}>Свидание</h1>
                     <p>Выбери вариант незабываемого свидания в уютной комнате с большим экраном</p>
 
                     <br />
@@ -159,10 +159,10 @@ const HomePage = () => {
                         <img src="style/img/svvip5.jpg" alt="vip-5-new" width={600} height={370} />
                       </div>
                       <h2></h2>
-                      <h3>Surprise</h3>
+                      <h3>Сюрприз</h3>
                       <div className="price">
-                        <span>40</span>
-                        <sup className="currency">£</sup>
+                        <span>5500</span>
+                        <sup className="currency">₽</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -211,10 +211,10 @@ const HomePage = () => {
                         <img src="style/img/svvip7.jpg" alt="vip-7-new" width={600} height={370} />
                       </div>
                       <h2></h2>
-                      <h3>Love evening</h3>
+                      <h3>Любовный вечер</h3>
                       <div className="price">
-                        <span>80</span>
-                        <sup className="currency">£</sup>
+                        <span>10500</span>
+                        <sup className="currency">₽</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -269,10 +269,10 @@ const HomePage = () => {
                         <img src="style/img/svvip15.jpg" alt="vip-15-new" width={600} height={370} />
                       </div>
                       <h2></h2>
-                      <h3>Date in the Stars</h3>
+                      <h3>Свидание над звездами</h3>
                       <div className="price">
-                        <span>190</span>
-                        <sup className="currency">£</sup>
+                        <span>15500</span>
+                        <sup className="currency"></sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
@@ -339,7 +339,7 @@ const HomePage = () => {
               <div className="mcb-wrap-inner">
                 <div className="column mcb-column one column_column  column-margin-">
                   <div className="column_attr clearfix" style={{}}>
-                    <h2>How do we get there?</h2>
+                    <h2>Как к нам добраться?</h2>
                     <div className="footer-impressum" style={{ marginTop: '40px' }}>
                       Контакты <br />
                       <br />

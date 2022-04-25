@@ -141,7 +141,7 @@ const HomePage = () => {
                       <div className="image">
                         <img src="/style/img/vip-5-new.jpeg" alt="vip-5-new" width={600} height={370} />
                       </div>
-                      <h3>Surprise</h3>
+                      <h3>Сюрприз</h3>
                       <div className="price">
                         <span>5500</span>
                         <sup className="currency">₽</sup>
@@ -456,10 +456,10 @@ const HomePage = () => {
                       <div className="image">
                         <img src="/style/img/vseisrazu.jpeg" alt="vseisrazu" width={600} height={370} />
                       </div>
-                      <h2>Всё и сейчас</h2>
+                      <h2>Всё и срзу</h2>
                       <div className="price">
-                        <span>430</span>
-                        <sup className="currency">£</sup>
+                        <span>30500</span>
+                        <sup className="currency">₽</sup>
                         <sup className="period" />
                       </div>
                       <hr className="hr_color" />
