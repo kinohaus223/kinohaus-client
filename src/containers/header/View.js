@@ -354,7 +354,7 @@ export const HeaderView = ({ activePath }) => {
                     <a className="menu-phone roistat-phone" href="tel:+74999555678">
                       8 (499) 955-56-78
                     </a>
-                    <p style={{ fontSize: '14px' }}>Mo-Th: 12:00 - 00.00 / Fr-Su: 12:00 - 06:00</p>
+                    <p style={{ fontSize: '14px' }}>Пн-Чт: 12:00 - 00.00 / Пт-Вс: 12:00 - 06:00</p>
                   </div>
                 </div>
                 <div className="secondary_menu_wrapper">
